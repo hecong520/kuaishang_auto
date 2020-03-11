@@ -1,0 +1,3 @@
+[ui-process]
+chat_box = //input[contains(@type,"text")]
+send_btn = //span[contains(text(),"发送")]

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "3ce813eabd72a75e",
+  "name" : "test_get_symtom",
+  "time" : {
+    "start" : 1583918083306,
+    "stop" : 1583918083423,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b974644022d624be",
+  "name" : "test_get_similarity",
+  "time" : {
+    "start" : 1583918082884,
+    "stop" : 1583918083149,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd225cb193d4d7fa",
+  "name" : "test_get_similarity",
+  "time" : {
+    "start" : 1583918083153,
+    "stop" : 1583918083303,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

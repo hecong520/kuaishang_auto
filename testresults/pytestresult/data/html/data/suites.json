@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "pytest.api",
+    "children" : [ {
+      "name" : "test_get_intent",
+      "children" : [ {
+        "name" : "TestIntent",
+        "children" : [ {
+          "name" : "test_get_similarity",
+          "uid" : "b974644022d624be",
+          "parentUid" : "2c4413a290385174ebd37281b89d6e89",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583918082884,
+            "stop" : 1583918083149,
+            "duration" : 265
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2c4413a290385174ebd37281b89d6e89"
+      } ],
+      "uid" : "678e135c51af3469e2c20fa9fe4ae59e"
+    }, {
+      "name" : "test_get_similarity",
+      "children" : [ {
+        "name" : "TestSimilarity",
+        "children" : [ {
+          "name" : "test_get_similarity",
+          "uid" : "bd225cb193d4d7fa",
+          "parentUid" : "96cb63e393bd72b184bc648d4c2432fd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583918083153,
+            "stop" : 1583918083303,
+            "duration" : 150
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "96cb63e393bd72b184bc648d4c2432fd"
+      } ],
+      "uid" : "f94fe489d4ac25f5a3562428588b1442"
+    }, {
+      "name" : "test_get_symptom",
+      "children" : [ {
+        "name" : "TestSymptom",
+        "children" : [ {
+          "name" : "test_get_symtom",
+          "uid" : "3ce813eabd72a75e",
+          "parentUid" : "113c20686be5aea1d68c094364764930",
+          "status" : "passed",
+          "time" : {
+            "start" : 1583918083306,
+            "stop" : 1583918083423,
+            "duration" : 117
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "113c20686be5aea1d68c094364764930"
+      } ],
+      "uid" : "623719092e86948d8f6fa67c64faaa13"
+    } ],
+    "uid" : "3436f76b4fbf923b7c164f1629748eba"
+  } ]
+}

@@ -1,0 +1,12 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 192.168.1.74:9001
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://192.168.1.74:9001 "GET /symptom_norm/v1?symptoms=%E9%98%B4%E8%8C%8E%E4%B8%8A%E9%9D%A2%E6%9C%89%E7%BA%A2%E7%82%B9 HTTP/1.1" 200 77
+INFO     root:get_logging.py:49 口语症状：阴茎上面有红点---预期标准症状：龟头有红点---实际标准症状：龟头有红点---是否一致：TRUE
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 192.168.1.74:9001
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://192.168.1.74:9001 "GET /symptom_norm/v1?symptoms=%E9%BE%9F%E5%A4%B4%E4%B8%8A%E6%9C%89%E5%87%A0%E4%B8%AA%E5%B0%8F%E7%BA%A2%E7%82%B9 HTTP/1.1" 200 77
+INFO     root:get_logging.py:49 口语症状：龟头上有几个小红点---预期标准症状：龟头有红点---实际标准症状：龟头有红点---是否一致：TRUE
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 192.168.1.74:9001
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://192.168.1.74:9001 "GET /symptom_norm/v1?symptoms=%E9%BE%9F%E5%A4%B4%E6%9C%89%E4%B8%80%E7%89%87%E7%89%87%E7%BA%A2%E7%82%B9 HTTP/1.1" 200 77
+INFO     root:get_logging.py:49 口语症状：龟头有一片片红点---预期标准症状：龟头有红点---实际标准症状：龟头有红点---是否一致：TRUE
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 192.168.1.74:9001
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://192.168.1.74:9001 "GET /symptom_norm/v1?symptoms=%E9%BE%9F%E5%A4%B4%E4%B8%8A%E6%9C%89%E4%B8%AA%E7%BA%A2%E7%82%B9 HTTP/1.1" 200 77
+INFO     root:get_logging.py:49 口语症状：龟头上有个红点---预期标准症状：龟头有红点---实际标准症状：龟头有红点---是否一致：TRUE

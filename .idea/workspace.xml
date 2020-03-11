@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a68f835-effe-4429-a687-34ebae545105" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$item_process.coverage" NAME="item_process Coverage Results" MODIFIED="1583735015456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$all_run.coverage" NAME="all_run Coverage Results" MODIFIED="1583740420794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_for_test_get_symptom_TestSymptom_test_get_symtom.coverage" NAME="Unittests for test_get_symptom.TestSymptom.test_get_symtom Coverage Results" MODIFIED="1583142604391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_for_test_get_similarity_TestSimilarity_test_get_similarity.coverage" NAME="Unittests for test_get_similarity.TestSimilarity.test_get_similarity Coverage Results" MODIFIED="1583142904107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1583804860774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_in_all_run_py.coverage" NAME="Unittests in all_run.py Coverage Results" MODIFIED="1582972395884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_in_get_similarity_py.coverage" NAME="Unittests in get_similarity.py Coverage Results" MODIFIED="1583143662917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/similarity" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_in_test_get_intent_py.coverage" NAME="Unittests in test_get_intent.py Coverage Results" MODIFIED="1583739511437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$get_config.coverage" NAME="get_config Coverage Results" MODIFIED="1582971106123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$test_get_intent.coverage" NAME="test_get_intent Coverage Results" MODIFIED="1583740702778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1583134872290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_in_test_item_process_py.coverage" NAME="Unittests in test_item_process.py Coverage Results" MODIFIED="1583734348327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_for_test_item_process_TestItemProcess_test_item_process.coverage" NAME="Unittests for test_item_process.TestItemProcess.test_item_process Coverage Results" MODIFIED="1583732680419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$run_all__2_.coverage" NAME="run_all (2) Coverage Results" MODIFIED="1583917373001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_for_test_get_intent_TestIntent.coverage" NAME="Unittests for test_get_intent.TestIntent Coverage Results" MODIFIED="1583739531940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$get_intent.coverage" NAME="get_intent Coverage Results" MODIFIED="1582781832560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intent" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_in_test_get_symptom_py.coverage" NAME="Unittests in test_get_symptom.py Coverage Results" MODIFIED="1583213895955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_for_test_get_symptom_TestSymptom.coverage" NAME="Unittests for test_get_symptom.TestSymptom Coverage Results" MODIFIED="1583142797187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_for_test_get_similarity_TestSimilarity.coverage" NAME="Unittests for test_get_similarity.TestSimilarity Coverage Results" MODIFIED="1583207029995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$get_symptom__1_.coverage" NAME="get_symptom (1) Coverage Results" MODIFIED="1582709923887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/symptoms" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$test__performs.coverage" NAME="test_ performs Coverage Results" MODIFIED="1583134317564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$test_item_process.coverage" NAME="test_item_process Coverage Results" MODIFIED="1583895996955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_in_test_get_similarity_py.coverage" NAME="Unittests in test_get_similarity.py Coverage Results" MODIFIED="1583214890372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$get_similarity.coverage" NAME="get_similarity Coverage Results" MODIFIED="1583144412486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/similarity" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_for_all_run_AllRun.coverage" NAME="Unittests for all_run.AllRun Coverage Results" MODIFIED="1583214420873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_for_test_item_process_TestItemProcess.coverage" NAME="Unittests for test_item_process.TestItemProcess Coverage Results" MODIFIED="1583733335532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$test_performs.coverage" NAME="test_performs Coverage Results" MODIFIED="1583214961524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$test_get_similarity.coverage" NAME="test_get_similarity Coverage Results" MODIFIED="1582968575681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$zl_client.coverage" NAME="zl_client Coverage Results" MODIFIED="1583205975854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/performs" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_for_test_get_intent_TestIntent_test_get_similarity.coverage" NAME="Unittests for test_get_intent.TestIntent.test_get_similarity Coverage Results" MODIFIED="1583213918622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$get_symptom.coverage" NAME="get_symptom Coverage Results" MODIFIED="1582709469761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/symptoms_to_one" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_for_get_similarity_GetSimilarity.coverage" NAME="Unittests for get_similarity.GetSimilarity Coverage Results" MODIFIED="1583142390609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/similarity" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$run_all__1_.coverage" NAME="run_all (1) Coverage Results" MODIFIED="1583918081487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$test_get_intent__1_.coverage" NAME="test_get_intent (1) Coverage Results" MODIFIED="1583909625991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest" />
+    <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$zl_server.coverage" NAME="zl_server Coverage Results" MODIFIED="1583205971648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/performs" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ZL_AUTO_TEST" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytest/api/test_get_intent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pytest/run_all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/common/JsonToDict.py" />
+        <option value="$PROJECT_DIR$/symptoms_to_one/GetSymptom.py" />
+        <option value="$PROJECT_DIR$/symptoms_to_one/get_symptom.py" />
+        <option value="$PROJECT_DIR$/testdata/test.csv" />
+        <option value="$PROJECT_DIR$/common/get_defferent.py" />
+        <option value="$PROJECT_DIR$/common/get_different.py" />
+        <option value="$PROJECT_DIR$/run/HTMLTestRunner_cn.py" />
+        <option value="$PROJECT_DIR$/testcase/get_intent.py" />
+        <option value="$PROJECT_DIR$/testcase/get_similarity.py" />
+        <option value="$PROJECT_DIR$/testcase/get_symptom.py" />
+        <option value="$PROJECT_DIR$/testdata/test1.csv" />
+        <option value="$PROJECT_DIR$/testdata/test2.json" />
+        <option value="$PROJECT_DIR$/testdata/test3.csv" />
+        <option value="$PROJECT_DIR$/testcase/test_xingneng.py" />
+        <option value="$PROJECT_DIR$/testcase/test_ performs.py" />
+        <option value="$PROJECT_DIR$/testcase/test_get_similarity.py" />
+        <option value="$PROJECT_DIR$/run/test1].py" />
+        <option value="$PROJECT_DIR$/run/test_ performs.py" />
+        <option value="$PROJECT_DIR$/run/test1.py" />
+        <option value="$PROJECT_DIR$/logs/2020_03_02.log" />
+        <option value="$PROJECT_DIR$/performs/zl_ckient.py" />
+        <option value="$PROJECT_DIR$/performs/zl_server.py" />
+        <option value="$PROJECT_DIR$/performs/zl_client.py" />
+        <option value="$PROJECT_DIR$/common/change_data_type.py" />
+        <option value="$PROJECT_DIR$/common/common_function.py" />
+        <option value="$PROJECT_DIR$/common/get_logging.py" />
+        <option value="$PROJECT_DIR$/intent/get_intent.py" />
+        <option value="$PROJECT_DIR$/symptoms/get_symptom.py" />
+        <option value="$PROJECT_DIR$/similarity/get_similarity.py" />
+        <option value="$PROJECT_DIR$/run/test_performs.py" />
+        <option value="$PROJECT_DIR$/testcase/test_get_symptom.py" />
+        <option value="$PROJECT_DIR$/testdata/config.txt" />
+        <option value="$PROJECT_DIR$/testdata/data.txt" />
+        <option value="$PROJECT_DIR$/testcase/test_item_process.py" />
+        <option value="$PROJECT_DIR$/testdata/xpath.txt" />
+        <option value="$PROJECT_DIR$/api/get_similarity.py" />
+        <option value="$PROJECT_DIR$/api/get_intent.py" />
+        <option value="$PROJECT_DIR$/api/get_symptom.py" />
+        <option value="$PROJECT_DIR$/ui/item_process.py" />
+        <option value="$PROJECT_DIR$/run/all_run.py" />
+        <option value="$PROJECT_DIR$/testcase/test_get_intent.py" />
+        <option value="$PROJECT_DIR$/run/run_all.py" />
+        <option value="$PROJECT_DIR$/common/get_config.py" />
+        <option value="$PROJECT_DIR$/common/send_email.py" />
+        <option value="$PROJECT_DIR$/pytest/test_item_process.py" />
+        <option value="$PROJECT_DIR$/pytest/test_get_symptom.py" />
+        <option value="$PROJECT_DIR$/pytest/test_get_similarity.py" />
+        <option value="$PROJECT_DIR$/pytest/test_get_intent.py" />
+        <option value="$PROJECT_DIR$/pytest/run_all.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="916" />
+    <option name="y" value="13" />
+    <option name="width" value="1038" />
+    <option name="height" value="742" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ZL_AUTO_TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZL_AUTO_TEST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZL_AUTO_TEST" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZL_AUTO_TEST" type="462c0819:PsiDirectoryNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pytest/testresults" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/pytest/testresults" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\ZL_AUTO_TEST\testcase" />
+      <recent name="D:\workspace\ZL_AUTO_TEST\pytest" />
+      <recent name="D:\workspace\ZL_AUTO_TEST\testdata" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\ZL_AUTO_TEST\pytest\ui" />
+      <recent name="D:\workspace\ZL_AUTO_TEST\pytest\api" />
+      <recent name="D:\workspace\ZL_AUTO_TEST\testcase\ui" />
+      <recent name="D:\workspace\ZL_AUTO_TEST\testcase\api" />
+      <recent name="D:\workspace\ZL_AUTO_TEST\performs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_all (1)">
+    <configuration name="run_all (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ZL_AUTO_TEST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytest/run_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_all (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ZL_AUTO_TEST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/run_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ZL_AUTO_TEST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\workspace\ZL_AUTO_TEST\pytest\run_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_get_intent (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ZL_AUTO_TEST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\workspace\ZL_AUTO_TEST\pytest\api\test_get_intent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_item_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ZL_AUTO_TEST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\workspace\ZL_AUTO_TEST\pytest\ui\test_item_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_all (1)" />
+        <item itemvalue="Python.run_all (2)" />
+        <item itemvalue="Python.test_get_intent (1)" />
+        <item itemvalue="Python.test_item_process" />
+        <item itemvalue="Python.run_all" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a68f835-effe-4429-a687-34ebae545105" name="Default Changelist" comment="" />
+      <created>1582708569652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582708569652</updated>
+      <workItem from="1582708571012" duration="41474000" />
+      <workItem from="1583214318256" duration="6835000" />
+      <workItem from="1583461546887" duration="28568000" />
+      <workItem from="1583915412547" duration="3304000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_item_process_TestItemProcess - 2020.03.09 at 13h 46m 15s.xml">
+      <configuration name="Unittests for test_item_process.TestItemProcess" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_item_process_TestItemProcess - 2020.03.09 at 13h 49m 28s.xml">
+      <configuration name="Unittests for test_item_process.TestItemProcess" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_item_process_TestItemProcess - 2020.03.09 at 13h 54m 39s.xml">
+      <configuration name="Unittests for test_item_process.TestItemProcess" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_item_process_TestItemProcess - 2020.03.09 at 13h 55m 58s.xml">
+      <configuration name="Unittests for test_item_process.TestItemProcess" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_item_process_py - 2020.03.09 at 13h 58m 21s.xml">
+      <configuration name="Unittests in test_item_process.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_item_process_py - 2020.03.09 at 14h 09m 48s.xml">
+      <configuration name="Unittests in test_item_process.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_item_process_py - 2020.03.09 at 14h 12m 52s.xml">
+      <configuration name="Unittests in test_item_process.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_get_intent_TestIntent - 2020.03.09 at 15h 37m 33s.xml">
+      <configuration name="Unittests for test_get_intent.TestIntent" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_get_intent_py - 2020.03.09 at 15h 38m 32s.xml">
+      <configuration name="Unittests in test_get_intent.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_get_intent_TestIntent - 2020.03.09 at 15h 38m 53s.xml">
+      <configuration name="Unittests for test_get_intent.TestIntent" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="80181000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.5008" side_tool="true" weight="0.15618336" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4992" visible="true" weight="0.17324094" />
+      <window_info id="Structure" order="2" sideWeight="0.5008" side_tool="true" weight="0.15618336" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.26218852" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="4" weight="0.32827735" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.38678223" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.40238613" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.32995737" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/run/test1.py" />
+    <entry file="file://$PROJECT_DIR$/testdata/apidata/意图识别测试数据.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144423">
+          <caret line="5349" selection-start-line="5349" selection-end-line="5349" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/apidata/test1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2020_03_02.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="95" selection-start-line="8" selection-start-column="95" selection-end-line="8" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performs/zl_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="e#96#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performs/zl_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1439">
+          <caret line="85" column="30" lean-forward="true" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+          <folding>
+            <element signature="e#97#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2020_03_03.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348281">
+          <caret line="1320" column="66" selection-start-line="1320" selection-start-column="66" selection-end-line="1320" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/xlwt/Workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="709" selection-start-line="709" selection-end-line="709" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/xlwt/CompoundDoc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/api/test_get_symptom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#149#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/get_different.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#101#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performs/test_performs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/config.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/get_logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+          <folding>
+            <element signature="e#98#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/get_symptom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="81" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
+          <folding>
+            <element signature="e#149#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/uidata/xpath.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/uidata/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/get_similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#107#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/apidata/test2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/change_data_type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#104#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/all_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="7" selection-start-line="7" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/ui/test_item_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#103#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/get_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/uidata/item_inquiry_process.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!block;n#包皮龟头炎#0;n#!!top" />
+            <element signature="n#!!block;n#膀胱炎#0;n#!!top" />
+            <element signature="n#!!block;n#早泄#0;n#!!top" />
+            <element signature="n#!!block;n#前列腺钙化#0;n#!!top" />
+            <element signature="n#!!block;n#阴茎整形#0;n#!!top" />
+            <element signature="n#!!block;n#睾丸炎#0;n#!!top" />
+            <element signature="n#!!block;n#男性生殖器外伤#0;n#!!top" />
+            <element signature="n#!!block;n#阳痿#0;n#!!top" />
+            <element signature="n#!!block;n#睾丸异常#0;n#!!top" />
+            <element signature="n#!!block;n#淋病#0;n#!!top" />
+            <element signature="n#!!block;n#前列腺肥大#0;n#!!top" />
+            <element signature="e#16795#16814#0" />
+            <element signature="n#!!block;n#附睾炎#0;n#!!top" />
+            <element signature="n#!!block;n#梅毒#0;n#!!top" />
+            <element signature="n#!!block;n#精索静脉曲张#0;n#!!top" />
+            <element signature="n#!!block;n#包皮过长#0;n#!!top" />
+            <element signature="n#!!block;n#精液不液化#0;n#!!top" />
+            <element signature="n#!!block;n#阴囊炎#0;n#!!top" />
+            <element signature="n#!!block;n#阴囊瘙痒#0;n#!!top" />
+            <element signature="n#!!block;n#前列腺囊肿#0;n#!!top" />
+            <element signature="n#!!block;n#不孕不育#0;n#!!top" />
+            <element signature="n#!!block;n#前列腺炎#0;n#!!top" />
+            <element signature="n#!!block;n#尿道炎#0;n#!!top" />
+            <element signature="n#!!block;n#艾滋病#0;n#!!top" />
+            <element signature="n#!!block;n#男性生殖器畸形#0;n#!!top" />
+            <element signature="n#!!block;n#精囊炎#0;n#!!top" />
+            <element signature="n#!!block;n#尖锐湿疣#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/item_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#99#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest/report/xml/e4337225-d7f0-4f9e-ace6-a1e58c652ddc-attachment.txt" />
+    <entry file="file://$PROJECT_DIR$/pytest/report/xml/f0cf21e8-2416-4d04-b948-0d1a3bf4ced1-result.json" />
+    <entry file="file://$PROJECT_DIR$/pytest/report/xml/c6731213-f06e-45ec-aeee-f29ddc72230f-result.json" />
+    <entry file="file://$PROJECT_DIR$/pytest/report/xml/a83a8f07-b19d-4a07-b53a-ff887a20f583-attachment.txt" />
+    <entry file="file://$PROJECT_DIR$/pytest/report/xml/96a99d8b-fcc2-4ad1-8755-be502a715a14-attachment.txt" />
+    <entry file="file://$PROJECT_DIR$/pytest/report/xml/067cb59f-380d-4977-976a-23c1ed698cb1-result.json" />
+    <entry file="file://$PROJECT_DIR$/pytest/report/xml/8b2554c7-3917-4f67-969d-dae0ac2920f4-result.json" />
+    <entry file="file://$PROJECT_DIR$/pytest/..testresults/report/xml/5da46084-6580-45ca-b05a-b927d0c669e7-result.json" />
+    <entry file="file://$PROJECT_DIR$/pytest/..testresults/report/xml/bf94de14-f58a-41cf-b020-188f214bf1c6-result.json" />
+    <entry file="file://$PROJECT_DIR$/pytest/..testresults/report/xml/7fc20f8a-ed98-4a1d-b8b9-1ea6b23c2369-attachment.txt" />
+    <entry file="file://$PROJECT_DIR$/pytest/..testresults/report/xml/0a977714-d1fb-4ec2-a583-0638c7ef6e86-attachment.txt" />
+    <entry file="file://$PROJECT_DIR$/testresults/html/20_03_11-11_32_03result.html" />
+    <entry file="file://$PROJECT_DIR$/testresults/pytestresult/data/24f1a347-da14-4232-948a-5b5dd2b2fc4c-result.json" />
+    <entry file="file://$PROJECT_DIR$/pytest/api/test_get_similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="17" column="68" lean-forward="true" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+          <folding>
+            <element signature="e#107#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest/api/test_get_symptom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#149#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/api/test_get_similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#107#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/api/test_get_intent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/get_intent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+          <folding>
+            <element signature="e#103#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="e#98#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="642" column="41" selection-start-line="642" selection-start-column="33" selection-end-line="642" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest/ui/test_item_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding>
+            <element signature="e#103#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest/api/test_get_intent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

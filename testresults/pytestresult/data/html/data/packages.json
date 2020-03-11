@@ -1,0 +1,57 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "pytest.api",
+    "children" : [ {
+      "name" : "test_get_intent",
+      "children" : [ {
+        "name" : "test_get_similarity",
+        "uid" : "b974644022d624be",
+        "parentUid" : "6e996aa1bb2a364a84711696007b8cf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583918082884,
+          "stop" : 1583918083149,
+          "duration" : 265
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e996aa1bb2a364a84711696007b8cf8"
+    }, {
+      "name" : "test_get_similarity",
+      "children" : [ {
+        "name" : "test_get_similarity",
+        "uid" : "bd225cb193d4d7fa",
+        "parentUid" : "3795372c4796e730074a239a528d24bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583918083153,
+          "stop" : 1583918083303,
+          "duration" : 150
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3795372c4796e730074a239a528d24bb"
+    }, {
+      "name" : "test_get_symptom",
+      "children" : [ {
+        "name" : "test_get_symtom",
+        "uid" : "3ce813eabd72a75e",
+        "parentUid" : "8781e1cb236c31c492df9f48710cf4b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583918083306,
+          "stop" : 1583918083423,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8781e1cb236c31c492df9f48710cf4b2"
+    } ],
+    "uid" : "pytest.api"
+  } ]
+}

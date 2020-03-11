@@ -1,0 +1,53 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "意图识别",
+    "children" : [ {
+      "name" : "test_get_similarity",
+      "uid" : "b974644022d624be",
+      "parentUid" : "bbf45a08ca61e19993ac78ffe6825d18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583918082884,
+        "stop" : 1583918083149,
+        "duration" : 265
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bbf45a08ca61e19993ac78ffe6825d18"
+  }, {
+    "name" : "症状相似度",
+    "children" : [ {
+      "name" : "test_get_similarity",
+      "uid" : "bd225cb193d4d7fa",
+      "parentUid" : "d5f777312c4b597b80413a5fdb70dd49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583918083153,
+        "stop" : 1583918083303,
+        "duration" : 150
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d5f777312c4b597b80413a5fdb70dd49"
+  }, {
+    "name" : "症状归一化",
+    "children" : [ {
+      "name" : "test_get_symtom",
+      "uid" : "3ce813eabd72a75e",
+      "parentUid" : "cbf7d9a70dbac058dc21d4ece7896a3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583918083306,
+        "stop" : 1583918083423,
+        "duration" : 117
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cbf7d9a70dbac058dc21d4ece7896a3e"
+  } ]
+}

@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WIN-OQ20V7UABJF",
+    "children" : [ {
+      "name" : "13136-MainThread",
+      "children" : [ {
+        "name" : "test_get_symtom",
+        "uid" : "3ce813eabd72a75e",
+        "parentUid" : "3d723ffdc7675475b1f1774e114b3c11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583918083306,
+          "stop" : 1583918083423,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_similarity",
+        "uid" : "b974644022d624be",
+        "parentUid" : "3d723ffdc7675475b1f1774e114b3c11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583918082884,
+          "stop" : 1583918083149,
+          "duration" : 265
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_similarity",
+        "uid" : "bd225cb193d4d7fa",
+        "parentUid" : "3d723ffdc7675475b1f1774e114b3c11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583918083153,
+          "stop" : 1583918083303,
+          "duration" : 150
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d723ffdc7675475b1f1774e114b3c11"
+    } ],
+    "uid" : "c1d739ea2cde58890d0f87d35a80f37b"
+  } ]
+}

@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","pytest.api.test_get_symptom.TestSymptom#test_get_symtom","117",""
+"passed","pytest.api.test_get_intent.TestIntent#test_get_similarity","265",""
+"passed","pytest.api.test_get_similarity.TestSimilarity#test_get_similarity","150",""

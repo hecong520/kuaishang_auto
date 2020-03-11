@@ -1,0 +1,24 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 192.168.1.74:8999
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://192.168.1.74:8999 "GET /symptom_similarity/v1?symptom1=%E6%99%9A%E4%B8%8A%E6%A2%A6%E9%81%97&symptom2=%E6%99%9A%E4%B8%8A%E5%B0%BF%E5%A4%9A HTTP/1.1" 200 140
+INFO     root:get_logging.py:49 症状1：晚上梦遗---症状2：晚上尿多---预期分数：0---实际分数：0---是否一致：TRUE
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 192.168.1.74:8999
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://192.168.1.74:8999 "GET /symptom_similarity/v1?symptom1=%E9%B8%A1%E5%90%A7%E5%B0%8F&symptom2=jj%E7%9F%AD HTTP/1.1" 200 117
+INFO     root:get_logging.py:49 症状1：鸡吧小---症状2：jj短---预期分数：1---实际分数：1---是否一致：TRUE
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 192.168.1.74:8999
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://192.168.1.74:8999 "GET /symptom_similarity/v1?symptom1=%E6%80%A7%E6%AC%B2%E6%B2%A1%E4%B8%8B%E9%99%8D&symptom2=%E6%80%A7%E6%AC%B2%E4%B8%8B%E9%99%8D HTTP/1.1" 200 144
+INFO     root:get_logging.py:49 症状1：性欲没下降---症状2：性欲下降---预期分数：0---实际分数：1---是否一致：FALSE
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 192.168.1.74:8999
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://192.168.1.74:8999 "GET /symptom_similarity/v1?symptom1=%E9%98%B4%E9%A2%88%E7%9F%AD%E5%B0%8F&symptom2=%E9%98%B4%E5%8A%B2%E7%9F%AD%E5%B0%8F HTTP/1.1" 200 140
+INFO     root:get_logging.py:49 症状1：阴颈短小---症状2：阴劲短小---预期分数：1---实际分数：0---是否一致：FALSE
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 192.168.1.74:8999
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://192.168.1.74:8999 "GET /symptom_similarity/v1?symptom1=%E9%B8%A1%E5%90%A7%E5%B0%8F&symptom2=jj%E5%B0%8F HTTP/1.1" 200 117
+INFO     root:get_logging.py:49 症状1：鸡吧小---症状2：jj小---预期分数：1---实际分数：1---是否一致：TRUE
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 192.168.1.74:8999
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://192.168.1.74:8999 "GET /symptom_similarity/v1?symptom1=%E5%B0%8F%E4%BE%BF%E6%9C%89%E7%81%BC%E7%83%AD%E6%84%9F&symptom2=%E5%B0%8F%E4%BE%BF%E5%8F%91%E9%BB%84 HTTP/1.1" 200 153
+INFO     root:get_logging.py:49 症状1：小便有灼热感---症状2：小便发黄---预期分数：0---实际分数：0---是否一致：TRUE
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 192.168.1.74:8999
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://192.168.1.74:8999 "GET /symptom_similarity/v1?symptom1=%E9%BE%9F%E5%A4%B4%E5%88%BA%E7%97%92&symptom2=%E9%BE%9F%E5%A4%B4%E7%98%99%E7%97%92 HTTP/1.1" 200 138
+INFO     root:get_logging.py:49 症状1：龟头刺痒---症状2：龟头瘙痒---预期分数：1---实际分数：1---是否一致：TRUE
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 192.168.1.74:8999
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://192.168.1.74:8999 "GET /symptom_similarity/v1?symptom1=%E9%98%B4%E5%9B%8A%E6%94%B6%E7%BC%A9&symptom2=%E7%9D%BE%E4%B8%B8%E6%BD%AE%E6%B9%BF HTTP/1.1" 200 139
+INFO     root:get_logging.py:49 症状1：阴囊收缩---症状2：睾丸潮湿---预期分数：0---实际分数：0---是否一致：TRUE

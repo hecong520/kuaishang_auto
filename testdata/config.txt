@@ -1,0 +1,8 @@
+[email]
+port = 465
+login_email = 609200751@qq.com
+login_password = mgvdekrrtlgjbehj
+smtp = smtp.qq.com
+subject = AUTO-API Test Result
+mailbody = 接口自动化测试报告
+Recipient = zl@kuaishang.cn
