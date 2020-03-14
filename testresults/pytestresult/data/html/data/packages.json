@@ -7,13 +7,13 @@
       "name" : "test_get_intent",
       "children" : [ {
         "name" : "test_get_similarity",
-        "uid" : "b974644022d624be",
+        "uid" : "2b008dbb7f586930",
         "parentUid" : "6e996aa1bb2a364a84711696007b8cf8",
         "status" : "passed",
         "time" : {
-          "start" : 1583918082884,
-          "stop" : 1583918083149,
-          "duration" : 265
+          "start" : 1584086713941,
+          "stop" : 1584086714209,
+          "duration" : 268
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -23,13 +23,13 @@
       "name" : "test_get_similarity",
       "children" : [ {
         "name" : "test_get_similarity",
-        "uid" : "bd225cb193d4d7fa",
+        "uid" : "fd1eee1f08afa480",
         "parentUid" : "3795372c4796e730074a239a528d24bb",
         "status" : "passed",
         "time" : {
-          "start" : 1583918083153,
-          "stop" : 1583918083303,
-          "duration" : 150
+          "start" : 1584086714213,
+          "stop" : 1584086714382,
+          "duration" : 169
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -39,13 +39,13 @@
       "name" : "test_get_symptom",
       "children" : [ {
         "name" : "test_get_symtom",
-        "uid" : "3ce813eabd72a75e",
+        "uid" : "8bd290986077cc72",
         "parentUid" : "8781e1cb236c31c492df9f48710cf4b2",
         "status" : "passed",
         "time" : {
-          "start" : 1583918083306,
-          "stop" : 1583918083423,
-          "duration" : 117
+          "start" : 1584086714385,
+          "stop" : 1584086714520,
+          "duration" : 135
         },
         "flaky" : false,
         "parameters" : [ ]

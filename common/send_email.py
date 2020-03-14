@@ -34,7 +34,7 @@ class SendEmail():
         smtp.login(login_email, login_password)
 
         att = MIMEApplication(open(file, 'rb').read())
-        att.add_header('Content-Disposition', 'attachment', filename="report.html")
+        att.add_header('Content-Disposition', 'attachment', filename="report.zip")
 
         msgRoot = MIMEMultipart('related')
         msgRoot['To'] = Recipient

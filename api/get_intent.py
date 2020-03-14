@@ -11,7 +11,7 @@ import requests
 import time
 from common.change_data_type import ChangeDataType
 from common.common_function import CommonFunction
-from common.get_logging import Logging
+# from common.get_logging import Logging
 
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
@@ -20,12 +20,10 @@ rootPath = os.path.split(curPath)[0]
 class GetIntent:
 
     def get_intent(self, test_data_file, result_file):
-        self.logging = Logging()
         test_data = ChangeDataType.csv_to_dict(rootPath + "\\testdata\\apidata\\" + test_data_file)
         score_list = []
         re_intent_list = []
         tf_list = []
-        # print("句子", "预期意图", "实际意图", "是否一致")
         for idx, temp in test_data.iterrows():
             intent = temp["intention"]
             sentence = temp["sentence"]
@@ -39,17 +37,14 @@ class GetIntent:
             except Exception as e:
                 score = "bad request"
                 print(e)
-
-            self.logging.info("句子：" + sentence + "---预期意图：" + intent
-                              + "---实际意图：" + re_intent + "---是否一致：" + tf)
+            # self.logging.info("句子：" + sentence + "---预期意图：" + intent
+            #                   + "---实际意图：" + re_intent + "---是否一致：" + tf)
             score_list.append(score)
             re_intent_list.append(re_intent)
             tf_list.append(tf)
-            # print(str(len(score_list)) + " has accomplished " + time.strftime('%Y-%m-%d %H:%M:%S',
-            #                                                                   time.localtime(time.time())))
         test_data["re_intent"] = re_intent_list
         test_data["score"] = score_list
         test_data = CommonFunction.get_collections(test_data, tf_list)
         now = time.strftime('%y_%m_%d-%H_%M_%S')
-        test_data.to_excel(rootPath + '\\testresults' + '\\' + now + result_file, index=False,
+        test_data.to_excel(rootPath + '\\testresults\\resultfile\\' + now + result_file, index=False,
                            encoding="utf-8")

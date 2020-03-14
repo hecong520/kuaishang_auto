@@ -11,6 +11,8 @@ import pytest
 import os
 import sys
 import subprocess
+from common.send_email import SendEmail
+from common.common_function import CommonFunction
 
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
@@ -21,6 +23,7 @@ if __name__ == '__main__':
     subprocess.run(['allure', 'generate', rootPath + '/testresults/pytestresult/data', '-o',
                     rootPath + '/testresults/pytestresult/data/html', '--clean'], shell=True)
 
-    # filename = rootPath + '\\testresults\\pytestresult\\data\\html' + '\\' + 'index.html'
-    # send_email = SendEmail()
-    # send_email.send_email(filename)
+    zipfile = CommonFunction.zip_file(rootPath + '\\testresults\\pytestresult\\data\\html',
+                                      rootPath + '\\testresults\\result.zip')
+    send_email = SendEmail()
+    send_email.send_email(rootPath + '\\testresults\\result.zip')

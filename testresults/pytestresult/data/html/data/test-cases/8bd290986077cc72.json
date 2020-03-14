@@ -1,32 +1,16 @@
 {
-  "uid" : "3ce813eabd72a75e",
+  "uid" : "8bd290986077cc72",
   "name" : "test_get_symtom",
   "fullName" : "pytest.api.test_get_symptom.TestSymptom#test_get_symtom",
   "historyId" : "7b46c8037517edd24c97eef896a047a2",
   "time" : {
-    "start" : 1583918083306,
-    "stop" : 1583918083423,
-    "duration" : 117
+    "start" : 1584086714385,
+    "stop" : 1584086714520,
+    "duration" : 135
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
-  "testStage" : {
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ {
-      "uid" : "24f1a6e8fc1386e5",
-      "name" : "log",
-      "source" : "24f1a6e8fc1386e5.txt",
-      "type" : "text/plain",
-      "size" : 1899
-    } ],
-    "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 0,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
-  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
@@ -48,7 +32,7 @@
     "value" : "WIN-OQ20V7UABJF"
   }, {
     "name" : "thread",
-    "value" : "13136-MainThread"
+    "value" : "9096-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -72,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ "apitest" ]
   },
-  "source" : "3ce813eabd72a75e.json",
+  "source" : "8bd290986077cc72.json",
   "parameterValues" : [ ]
 }

@@ -4,45 +4,45 @@
   "children" : [ {
     "name" : "WIN-OQ20V7UABJF",
     "children" : [ {
-      "name" : "13136-MainThread",
+      "name" : "9096-MainThread",
       "children" : [ {
+        "name" : "test_get_similarity",
+        "uid" : "2b008dbb7f586930",
+        "parentUid" : "b3701733209703365b6b6c74b3950aae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584086713941,
+          "stop" : 1584086714209,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_similarity",
+        "uid" : "fd1eee1f08afa480",
+        "parentUid" : "b3701733209703365b6b6c74b3950aae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1584086714213,
+          "stop" : 1584086714382,
+          "duration" : 169
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "test_get_symtom",
-        "uid" : "3ce813eabd72a75e",
-        "parentUid" : "3d723ffdc7675475b1f1774e114b3c11",
+        "uid" : "8bd290986077cc72",
+        "parentUid" : "b3701733209703365b6b6c74b3950aae",
         "status" : "passed",
         "time" : {
-          "start" : 1583918083306,
-          "stop" : 1583918083423,
-          "duration" : 117
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_get_similarity",
-        "uid" : "b974644022d624be",
-        "parentUid" : "3d723ffdc7675475b1f1774e114b3c11",
-        "status" : "passed",
-        "time" : {
-          "start" : 1583918082884,
-          "stop" : 1583918083149,
-          "duration" : 265
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_get_similarity",
-        "uid" : "bd225cb193d4d7fa",
-        "parentUid" : "3d723ffdc7675475b1f1774e114b3c11",
-        "status" : "passed",
-        "time" : {
-          "start" : 1583918083153,
-          "stop" : 1583918083303,
-          "duration" : 150
+          "start" : 1584086714385,
+          "stop" : 1584086714520,
+          "duration" : 135
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3d723ffdc7675475b1f1774e114b3c11"
+      "uid" : "b3701733209703365b6b6c74b3950aae"
     } ],
     "uid" : "c1d739ea2cde58890d0f87d35a80f37b"
   } ]

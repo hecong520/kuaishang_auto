@@ -1,30 +1,30 @@
 [ {
-  "uid" : "3ce813eabd72a75e",
+  "uid" : "2b008dbb7f586930",
+  "name" : "test_get_similarity",
+  "time" : {
+    "start" : 1584086713941,
+    "stop" : 1584086714209,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd1eee1f08afa480",
+  "name" : "test_get_similarity",
+  "time" : {
+    "start" : 1584086714213,
+    "stop" : 1584086714382,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bd290986077cc72",
   "name" : "test_get_symtom",
   "time" : {
-    "start" : 1583918083306,
-    "stop" : 1583918083423,
-    "duration" : 117
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b974644022d624be",
-  "name" : "test_get_similarity",
-  "time" : {
-    "start" : 1583918082884,
-    "stop" : 1583918083149,
-    "duration" : 265
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd225cb193d4d7fa",
-  "name" : "test_get_similarity",
-  "time" : {
-    "start" : 1583918083153,
-    "stop" : 1583918083303,
-    "duration" : 150
+    "start" : 1584086714385,
+    "stop" : 1584086714520,
+    "duration" : 135
   },
   "status" : "passed",
   "severity" : "normal"

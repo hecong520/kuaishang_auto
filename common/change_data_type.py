@@ -33,3 +33,4 @@ class ChangeDataType:
     def csv_to_dict(file):
         test_data = pandas.read_csv(file, encoding="utf-8")
         return test_data
+

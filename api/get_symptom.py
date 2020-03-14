@@ -21,14 +21,13 @@ rootPath = os.path.split(curPath)[0]
 class GetSymptom:
 
     def get_symtom(self, test_data_file, result_file):
-        self.logging = Logging()
+        # self.logging = Logging()
         test_data = ChangeDataType.json_to_dict(rootPath + "\\testdata\\apidata\\" + test_data_file)
         key_list = list(test_data.keys())
         value_list = list(test_data.values())
         result_value_list = []
         tf_list = []
         tf = ""
-        # print("口语症状", "李威整理", "詹威识别", "是否一致")
         for key, value in test_data.items():
             url = "http://192.168.1.74:9001/symptom_norm/v1?symptoms={}".format(key)
             try:
@@ -38,8 +37,8 @@ class GetSymptom:
                 tf = CommonFunction.get_tf(result_value, value[0])
             except Exception as e:
                 print(e)
-            self.logging.info("口语症状：" + key + "---预期标准症状：" + value[0] + "---实际标准症状："
-                              + result_value + "---是否一致：" + tf)
+            # self.logging.info("口语症状：" + key + "---预期标准症状：" + value[0] + "---实际标准症状："
+            #                   + result_value + "---是否一致：" + tf)
             result_value_list.append(result_value)
             tf_list.append(tf)
 
@@ -68,4 +67,4 @@ class GetSymptom:
             sheet1.write(i + 1, 1, value_list[i])
             sheet1.write(i + 1, 2, result_value_list[i])
             sheet1.write(i + 1, 3, tf_list[i])
-        workbook.save(rootPath + '\\testresults' + '\\' + now + result_file)
+        workbook.save(rootPath + '\\testresults\\resultfile\\' + now + result_file)

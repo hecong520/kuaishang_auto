@@ -1,32 +1,16 @@
 {
-  "uid" : "bd225cb193d4d7fa",
+  "uid" : "fd1eee1f08afa480",
   "name" : "test_get_similarity",
   "fullName" : "pytest.api.test_get_similarity.TestSimilarity#test_get_similarity",
   "historyId" : "003a7f02b4e8a7212a1ed3856330a7df",
   "time" : {
-    "start" : 1583918083153,
-    "stop" : 1583918083303,
-    "duration" : 150
+    "start" : 1584086714213,
+    "stop" : 1584086714382,
+    "duration" : 169
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
-  "testStage" : {
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ {
-      "uid" : "53fa336d0a3e30a2",
-      "name" : "log",
-      "source" : "53fa336d0a3e30a2.txt",
-      "type" : "text/plain",
-      "size" : 3653
-    } ],
-    "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 0,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
-  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
@@ -48,7 +32,7 @@
     "value" : "WIN-OQ20V7UABJF"
   }, {
     "name" : "thread",
-    "value" : "13136-MainThread"
+    "value" : "9096-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -72,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ "apitest" ]
   },
-  "source" : "bd225cb193d4d7fa.json",
+  "source" : "fd1eee1f08afa480.json",
   "parameterValues" : [ ]
 }
