@@ -19,10 +19,10 @@ rootPath = os.path.split(curPath)[0]
 class ItemProcess:
     def get_process_data(self, file):
         test_data = ChangeDataType.json_to_dict(rootPath + "\\testdata\\uidata\\" + file)
-        print(test_data)
-        # 遍历item_process.json文件中的项目与项目问诊内容
-        for key in test_data:
-            print(key + ':' + str(test_data[key]))
+        # print(test_data)
+        # # 遍历item_process.json文件中的项目与项目问诊内容
+        # for key in test_data:
+        #     print(key + ':' + str(test_data[key]))
         return test_data
 
     def item_process(self, driver, url):
@@ -32,10 +32,10 @@ class ItemProcess:
         driver.get(url)
         driver.implicitly_wait(15)
 
-        test_data = ItemProcess().get_process_data("item_inquiry_process.json")
+        # test_data = ItemProcess().get_process_data("item_inquiry_process.json")
         # 遍历item_process.json文件中的项目与项目问诊内容
-        for key in test_data:
-            print(key + ':' + str(test_data[key]))
+        # for key in test_data:
+        #     print(key + ':' + str(test_data[key]))
         driver.find_element_by_xpath(self.c["chat_box"]).send_keys("你好\n")
         time.sleep(10)
 

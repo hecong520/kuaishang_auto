@@ -1,12 +1,12 @@
 {
-  "uid" : "fd1eee1f08afa480",
-  "name" : "test_get_similarity",
-  "fullName" : "pytest.api.test_get_similarity.TestSimilarity#test_get_similarity",
-  "historyId" : "003a7f02b4e8a7212a1ed3856330a7df",
+  "uid" : "6805aea3db84ae74",
+  "name" : "test_get_ner",
+  "fullName" : "pytest.api.test_get_ner.TestNer#test_get_ner",
+  "historyId" : "d8540c5ad7e84c36960538bd2f6c1a29",
   "time" : {
-    "start" : 1584086714213,
-    "stop" : 1584086714382,
-    "duration" : 169
+    "start" : 1585726778706,
+    "stop" : 1585726972062,
+    "duration" : 193356
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,7 +14,7 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "症状相似度"
+    "value" : "Ner实体识别"
   }, {
     "name" : "tag",
     "value" : "apitest"
@@ -23,16 +23,16 @@
     "value" : "pytest.api"
   }, {
     "name" : "suite",
-    "value" : "test_get_similarity"
+    "value" : "test_get_ner"
   }, {
     "name" : "subSuite",
-    "value" : "TestSimilarity"
+    "value" : "TestNer"
   }, {
     "name" : "host",
     "value" : "WIN-OQ20V7UABJF"
   }, {
     "name" : "thread",
-    "value" : "9096-MainThread"
+    "value" : "21528-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -41,7 +41,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "pytest.api.test_get_similarity"
+    "value" : "pytest.api.test_get_ner"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ "apitest" ]
   },
-  "source" : "fd1eee1f08afa480.json",
+  "source" : "6805aea3db84ae74.json",
   "parameterValues" : [ ]
 }

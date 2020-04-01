@@ -8,7 +8,7 @@ Created on 2020/2/27
 
 import pandas
 import os
-from common.common_function import Common_Function
+from common.common_function import CommonFunction
 
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
@@ -25,14 +25,14 @@ class Get_different():
             str1 = temp["intent_x"]
             str2 = temp["intent_y"]
             try:
-                tf = Common_Function.get_tf(str1, str2)
+                tf = CommonFunction.get_tf(str1, str2)
             except Exception as e:
                 score = "bad request"
             print(score)
         tf_list.append(tf)
 
         print(test_data)
-        test_data = Common_Function.get_collections(self, test_data, tf_list)
+        test_data = CommonFunction.get_collections(self, test_data, tf_list)
         test_data.to_excel(rootPath + "\\testresults\\" + result_file, index=False)
 
 

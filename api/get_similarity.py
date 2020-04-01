@@ -11,7 +11,7 @@ import requests
 import time
 from common.change_data_type import ChangeDataType
 from common.common_function import CommonFunction
-from common.get_logging import Logging
+from algorithm.algorithm_func import Binary
 
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
@@ -27,6 +27,7 @@ class GetSimilarity:
         tf_list = []
         re_score = ""
         tf = ""
+        lb_list = []
         for idx, temp in test_data.iterrows():
             label = int(temp["label"])
             str1 = temp["症状a"]
@@ -46,9 +47,11 @@ class GetSimilarity:
             score_list.append(score)
             re_score_list.append(re_score)
             tf_list.append(tf)
+            lb_list.append(label)
         test_data["score"] = score_list
         test_data["re_score"] = re_score_list
         test_data = CommonFunction.get_collections(test_data, tf_list)
+        Binary.binary_plot_curve(lb_list, re_score_list)
         now = time.strftime('%y_%m_%d-%H_%M_%S')
         test_data.to_excel(rootPath + '\\testresults\\resultfile\\' + now + result_file, index=False,
                            encoding="utf-8")

@@ -10,13 +10,10 @@ import pytest
 from api.get_similarity import GetSimilarity
 import allure
 
+
 class TestSimilarity(object):
 
     @pytest.mark.apitest
     @allure.feature("症状相似度")
     def test_get_similarity(self):
-        GetSimilarity.get_similarity(self, "test1.csv", "test2.xls")
-
-#
-# if __name__ == '__main__':
-#     unittest.main()
+        GetSimilarity.get_similarity(self, "症状相似度.csv", "test2.xls")

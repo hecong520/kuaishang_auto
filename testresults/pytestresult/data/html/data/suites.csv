@@ -1,4 +1,5 @@
 "Status","Name","Duration in ms","Description"
-"passed","pytest.api.test_get_intent.TestIntent#test_get_similarity","268",""
-"passed","pytest.api.test_get_similarity.TestSimilarity#test_get_similarity","169",""
-"passed","pytest.api.test_get_symptom.TestSymptom#test_get_symtom","135",""
+"broken","pytest.api.test_get_intent.TestIntent#test_get_similarity","25",""
+"broken","pytest.api.test_get_symptom.TestSymptom#test_get_symtom","112781",""
+"broken","pytest.api.test_get_similarity.TestSimilarity#test_get_similarity","11",""
+"passed","pytest.api.test_get_ner.TestNer#test_get_ner","193356",""

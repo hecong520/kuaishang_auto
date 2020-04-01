@@ -11,7 +11,7 @@ import requests
 import time
 from common.change_data_type import ChangeDataType
 from common.common_function import CommonFunction
-# from common.get_logging import Logging
+from algorithm.algorithm_func import Binary
 
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
@@ -42,6 +42,8 @@ class GetIntent:
             score_list.append(score)
             re_intent_list.append(re_intent)
             tf_list.append(tf)
+
+        Binary.binary_plot_curve(value_list, result_value_list)
         test_data["re_intent"] = re_intent_list
         test_data["score"] = score_list
         test_data = CommonFunction.get_collections(test_data, tf_list)

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
-    <file url="file://$PROJECT_DIR$/testdata/apidata/意图识别测试数据.csv" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/testdata/apidata/test_changespace.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testdata/apidata/test_gynaecology.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testdata/apidata/testresult.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testdata/apidata/意图识别.csv" charset="US-ASCII" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

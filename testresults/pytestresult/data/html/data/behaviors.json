@@ -5,29 +5,45 @@
     "name" : "意图识别",
     "children" : [ {
       "name" : "test_get_similarity",
-      "uid" : "2b008dbb7f586930",
+      "uid" : "e453972b39ac901f",
       "parentUid" : "bbf45a08ca61e19993ac78ffe6825d18",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1584086713941,
-        "stop" : 1584086714209,
-        "duration" : 268
+        "start" : 1585726778355,
+        "stop" : 1585726778380,
+        "duration" : 25
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
     "uid" : "bbf45a08ca61e19993ac78ffe6825d18"
   }, {
+    "name" : "Ner实体识别",
+    "children" : [ {
+      "name" : "test_get_ner",
+      "uid" : "6805aea3db84ae74",
+      "parentUid" : "ff03dcdeb0e9528d5bdca058c38677c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585726778706,
+        "stop" : 1585726972062,
+        "duration" : 193356
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ff03dcdeb0e9528d5bdca058c38677c4"
+  }, {
     "name" : "症状相似度",
     "children" : [ {
       "name" : "test_get_similarity",
-      "uid" : "fd1eee1f08afa480",
+      "uid" : "f0b032a31afa728b",
       "parentUid" : "d5f777312c4b597b80413a5fdb70dd49",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1584086714213,
-        "stop" : 1584086714382,
-        "duration" : 169
+        "start" : 1585726972066,
+        "stop" : 1585726972077,
+        "duration" : 11
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -37,13 +53,13 @@
     "name" : "症状归一化",
     "children" : [ {
       "name" : "test_get_symtom",
-      "uid" : "8bd290986077cc72",
+      "uid" : "edc8f770f13e6214",
       "parentUid" : "cbf7d9a70dbac058dc21d4ece7896a3e",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1584086714385,
-        "stop" : 1584086714520,
-        "duration" : 135
+        "start" : 1585726972256,
+        "stop" : 1585727085037,
+        "duration" : 112781
       },
       "flaky" : false,
       "parameters" : [ ]

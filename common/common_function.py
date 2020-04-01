@@ -5,9 +5,14 @@ Created on 2020/2/27
 @author: ZL
 @Desc  :
 '''
-
+import csv
 import zipfile
 import os
+import pandas
+import re
+
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
 
 
 class CommonFunction:
@@ -55,3 +60,63 @@ class CommonFunction:
             for filename in filenames:
                 zip.write(os.path.join(root, filename), os.path.join(file_path, filename))
         zip.close()
+
+    @staticmethod
+    def change_space_to_comma(test_data_file):
+        # 清空文件内容（仅当以 "r+"   "rb+"    "w"   "wb" "wb+"等以可写模式打开的文件才可以执行该功能）
+        f1 = open((rootPath + "\\testdata\\apidata\\" + test_data_file), 'r+', encoding='UTF-8', errors='ignore')
+        infos = f1.read()
+        line_new = re.sub('		', ',', infos)  # 替换功能
+        f1.seek(0)  # 清空文件
+        f1.truncate()
+        f1.write(line_new)  # 重写
+        f1.close()
+
+    @staticmethod
+    def get_txt_to_csv(test_data_file, result_data_file):
+        CommonFunction.change_space_to_comma(test_data_file)
+        with open((rootPath + "\\testdata\\apidata\\" + result_data_file), 'w+', encoding='UTF-8',
+                  newline='') as csvfile:
+            spamwriter = csv.writer(csvfile, dialect='excel')
+            with open((rootPath + "\\testdata\\apidata\\" + test_data_file), 'r', encoding='UTF-8',
+                      errors='ignore') as filein:
+                spamwriter.writerow("--")
+                for line in filein:
+                    if "," in line:
+                        if ",," in line:
+                            line_list = line.strip('\n').split(',,')
+                            if line_list[0] == "":
+                                line_list[0] = "，"
+                        else:
+                            line_list = line.strip('\n').split(',')
+                        spamwriter.writerow(line_list)
+                    else:
+                        spamwriter.writerow("--")
+                spamwriter.writerow("--")
+
+    @staticmethod
+    def get_ner_to_words(file):
+        test_data = pandas.read_csv(rootPath + "\\testdata\\apidata\\" + file, encoding="utf-8")
+        bio_list = []
+        re_word_list = []
+        word_list = []
+        words_list = []
+        words_l = []
+        bios_list = []
+        for idx, temp in test_data.iterrows():
+            if temp[1] != "-":
+                word = temp[0]
+                exp_bio = temp[1]
+                re_word_list.append(word)
+                word_list.append(word)
+                words = "".join(word_list)
+                bio_list.append(exp_bio)
+                words_l.append(words)
+            else:
+                words_list.append(words_l[len(words_l) - 1])
+                for i in range(0, len(bio_list)):
+                    bios_list.append(bio_list[i])
+                words_l = []
+                word_list = []
+                bio_list = []
+        return re_word_list, words_list, bios_list

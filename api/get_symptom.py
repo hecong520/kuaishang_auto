@@ -12,7 +12,7 @@ import xlwt
 from common.change_data_type import ChangeDataType
 from common.common_function import CommonFunction
 import time
-from common.get_logging import Logging
+from algorithm.algorithm_func import Binary
 
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
@@ -42,6 +42,7 @@ class GetSymptom:
             result_value_list.append(result_value)
             tf_list.append(tf)
 
+        Binary.binary_plot_curve(value_list, result_value_list)
         now = time.strftime('%y_%m_%d-%H_%M_%S')
         workbook = xlwt.Workbook()
         sheet1 = workbook.add_sheet('sheet1', cell_overwrite_ok=True)

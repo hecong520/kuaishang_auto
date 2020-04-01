@@ -25,5 +25,5 @@ if __name__ == '__main__':
 
     zipfile = CommonFunction.zip_file(rootPath + '\\testresults\\pytestresult\\data\\html',
                                       rootPath + '\\testresults\\result.zip')
-    send_email = SendEmail()
-    send_email.send_email(rootPath + '\\testresults\\result.zip')
+    # send_email = SendEmail()
+    # send_email.send_email(rootPath + '\\testresults\\result.zip')

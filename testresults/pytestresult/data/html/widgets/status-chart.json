@@ -1,30 +1,40 @@
 [ {
-  "uid" : "2b008dbb7f586930",
+  "uid" : "e453972b39ac901f",
   "name" : "test_get_similarity",
   "time" : {
-    "start" : 1584086713941,
-    "stop" : 1584086714209,
-    "duration" : 268
+    "start" : 1585726778355,
+    "stop" : 1585726778380,
+    "duration" : 25
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "fd1eee1f08afa480",
-  "name" : "test_get_similarity",
-  "time" : {
-    "start" : 1584086714213,
-    "stop" : 1584086714382,
-    "duration" : 169
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8bd290986077cc72",
+  "uid" : "edc8f770f13e6214",
   "name" : "test_get_symtom",
   "time" : {
-    "start" : 1584086714385,
-    "stop" : 1584086714520,
-    "duration" : 135
+    "start" : 1585726972256,
+    "stop" : 1585727085037,
+    "duration" : 112781
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f0b032a31afa728b",
+  "name" : "test_get_similarity",
+  "time" : {
+    "start" : 1585726972066,
+    "stop" : 1585726972077,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6805aea3db84ae74",
+  "name" : "test_get_ner",
+  "time" : {
+    "start" : 1585726778706,
+    "stop" : 1585726972062,
+    "duration" : 193356
   },
   "status" : "passed",
   "severity" : "normal"

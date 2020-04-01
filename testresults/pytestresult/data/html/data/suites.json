@@ -9,13 +9,13 @@
         "name" : "TestIntent",
         "children" : [ {
           "name" : "test_get_similarity",
-          "uid" : "2b008dbb7f586930",
+          "uid" : "e453972b39ac901f",
           "parentUid" : "2c4413a290385174ebd37281b89d6e89",
-          "status" : "passed",
+          "status" : "broken",
           "time" : {
-            "start" : 1584086713941,
-            "stop" : 1584086714209,
-            "duration" : 268
+            "start" : 1585726778355,
+            "stop" : 1585726778380,
+            "duration" : 25
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -24,18 +24,38 @@
       } ],
       "uid" : "678e135c51af3469e2c20fa9fe4ae59e"
     }, {
+      "name" : "test_get_ner",
+      "children" : [ {
+        "name" : "TestNer",
+        "children" : [ {
+          "name" : "test_get_ner",
+          "uid" : "6805aea3db84ae74",
+          "parentUid" : "ea7aff6277416ff295f827079069cb26",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585726778706,
+            "stop" : 1585726972062,
+            "duration" : 193356
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ea7aff6277416ff295f827079069cb26"
+      } ],
+      "uid" : "981172c492ca2fdc2ba7812ac2bd2fab"
+    }, {
       "name" : "test_get_similarity",
       "children" : [ {
         "name" : "TestSimilarity",
         "children" : [ {
           "name" : "test_get_similarity",
-          "uid" : "fd1eee1f08afa480",
+          "uid" : "f0b032a31afa728b",
           "parentUid" : "96cb63e393bd72b184bc648d4c2432fd",
-          "status" : "passed",
+          "status" : "broken",
           "time" : {
-            "start" : 1584086714213,
-            "stop" : 1584086714382,
-            "duration" : 169
+            "start" : 1585726972066,
+            "stop" : 1585726972077,
+            "duration" : 11
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -49,13 +69,13 @@
         "name" : "TestSymptom",
         "children" : [ {
           "name" : "test_get_symtom",
-          "uid" : "8bd290986077cc72",
+          "uid" : "edc8f770f13e6214",
           "parentUid" : "113c20686be5aea1d68c094364764930",
-          "status" : "passed",
+          "status" : "broken",
           "time" : {
-            "start" : 1584086714385,
-            "stop" : 1584086714520,
-            "duration" : 135
+            "start" : 1585726972256,
+            "stop" : 1585727085037,
+            "duration" : 112781
           },
           "flaky" : false,
           "parameters" : [ ]

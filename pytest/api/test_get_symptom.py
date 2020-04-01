@@ -16,7 +16,7 @@ class TestSymptom(object):
     @pytest.mark.apitest
     @allure.feature("症状归一化")
     def test_get_symtom(self):
-        GetSymptom.get_symtom(self, "test2.json", "test3.xls")
+        GetSymptom.get_symtom(self, "口语-标准症状映射.json", "test3.xls")
 
 #
 # if __name__ == '__main__':
