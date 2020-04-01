@@ -9,15 +9,27 @@
         "name" : "TestIntent",
         "children" : [ {
           "name" : "test_get_similarity",
-          "uid" : "e453972b39ac901f",
+          "uid" : "70236c747493f9fd",
           "parentUid" : "2c4413a290385174ebd37281b89d6e89",
           "status" : "broken",
           "time" : {
-            "start" : 1585726778355,
-            "stop" : 1585726778380,
-            "duration" : 25
+            "start" : 1585729370409,
+            "stop" : 1585729713499,
+            "duration" : 343090
           },
-          "flaky" : false,
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_get_intent",
+          "uid" : "4a452ccbf73ca36",
+          "parentUid" : "2c4413a290385174ebd37281b89d6e89",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585730921342,
+            "stop" : 1585731266660,
+            "duration" : 345318
+          },
+          "flaky" : true,
           "parameters" : [ ]
         } ],
         "uid" : "2c4413a290385174ebd37281b89d6e89"
@@ -29,15 +41,15 @@
         "name" : "TestNer",
         "children" : [ {
           "name" : "test_get_ner",
-          "uid" : "6805aea3db84ae74",
+          "uid" : "472847a8b23c7184",
           "parentUid" : "ea7aff6277416ff295f827079069cb26",
           "status" : "passed",
           "time" : {
-            "start" : 1585726778706,
-            "stop" : 1585726972062,
-            "duration" : 193356
+            "start" : 1585729713680,
+            "stop" : 1585729904370,
+            "duration" : 190690
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         } ],
         "uid" : "ea7aff6277416ff295f827079069cb26"
@@ -49,15 +61,15 @@
         "name" : "TestSimilarity",
         "children" : [ {
           "name" : "test_get_similarity",
-          "uid" : "f0b032a31afa728b",
+          "uid" : "72800d05e67e5340",
           "parentUid" : "96cb63e393bd72b184bc648d4c2432fd",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1585726972066,
-            "stop" : 1585726972077,
-            "duration" : 11
+            "start" : 1585729904373,
+            "stop" : 1585729981263,
+            "duration" : 76890
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         } ],
         "uid" : "96cb63e393bd72b184bc648d4c2432fd"
@@ -69,15 +81,15 @@
         "name" : "TestSymptom",
         "children" : [ {
           "name" : "test_get_symtom",
-          "uid" : "edc8f770f13e6214",
+          "uid" : "45eae3acdae6950e",
           "parentUid" : "113c20686be5aea1d68c094364764930",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1585726972256,
-            "stop" : 1585727085037,
-            "duration" : 112781
+            "start" : 1585729981269,
+            "stop" : 1585730092899,
+            "duration" : 111630
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         } ],
         "uid" : "113c20686be5aea1d68c094364764930"

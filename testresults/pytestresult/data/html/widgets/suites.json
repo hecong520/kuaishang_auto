@@ -5,11 +5,11 @@
     "name" : "pytest.api",
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     }
   } ]
 }

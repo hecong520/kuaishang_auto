@@ -5,15 +5,27 @@
     "name" : "意图识别",
     "children" : [ {
       "name" : "test_get_similarity",
-      "uid" : "e453972b39ac901f",
+      "uid" : "70236c747493f9fd",
       "parentUid" : "bbf45a08ca61e19993ac78ffe6825d18",
       "status" : "broken",
       "time" : {
-        "start" : 1585726778355,
-        "stop" : 1585726778380,
-        "duration" : 25
+        "start" : 1585729370409,
+        "stop" : 1585729713499,
+        "duration" : 343090
       },
-      "flaky" : false,
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_get_intent",
+      "uid" : "4a452ccbf73ca36",
+      "parentUid" : "bbf45a08ca61e19993ac78ffe6825d18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585730921342,
+        "stop" : 1585731266660,
+        "duration" : 345318
+      },
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "bbf45a08ca61e19993ac78ffe6825d18"
@@ -21,15 +33,15 @@
     "name" : "Ner实体识别",
     "children" : [ {
       "name" : "test_get_ner",
-      "uid" : "6805aea3db84ae74",
+      "uid" : "472847a8b23c7184",
       "parentUid" : "ff03dcdeb0e9528d5bdca058c38677c4",
       "status" : "passed",
       "time" : {
-        "start" : 1585726778706,
-        "stop" : 1585726972062,
-        "duration" : 193356
+        "start" : 1585729713680,
+        "stop" : 1585729904370,
+        "duration" : 190690
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "ff03dcdeb0e9528d5bdca058c38677c4"
@@ -37,15 +49,15 @@
     "name" : "症状相似度",
     "children" : [ {
       "name" : "test_get_similarity",
-      "uid" : "f0b032a31afa728b",
+      "uid" : "72800d05e67e5340",
       "parentUid" : "d5f777312c4b597b80413a5fdb70dd49",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1585726972066,
-        "stop" : 1585726972077,
-        "duration" : 11
+        "start" : 1585729904373,
+        "stop" : 1585729981263,
+        "duration" : 76890
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "d5f777312c4b597b80413a5fdb70dd49"
@@ -53,15 +65,15 @@
     "name" : "症状归一化",
     "children" : [ {
       "name" : "test_get_symtom",
-      "uid" : "edc8f770f13e6214",
+      "uid" : "45eae3acdae6950e",
       "parentUid" : "cbf7d9a70dbac058dc21d4ece7896a3e",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1585726972256,
-        "stop" : 1585727085037,
-        "duration" : 112781
+        "start" : 1585729981269,
+        "stop" : 1585730092899,
+        "duration" : 111630
       },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ ]
     } ],
     "uid" : "cbf7d9a70dbac058dc21d4ece7896a3e"

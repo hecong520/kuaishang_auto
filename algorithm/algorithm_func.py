@@ -131,7 +131,6 @@ class MultiClassByWord:
         R = tp / (tp + fn)
         return 2 * P * R / (P + R)
 
-
     def get_each_class_target(self, lb_list1, lb_list2, point):
         tp, fp, fn, tn = MultiClassByWord.get_result_prob(self, lb_list1, lb_list2, point)
         recall = MultiClassByWord.get_recall_score1(tp, fn)
@@ -184,13 +183,15 @@ class MultiClassByWord:
         F1 = 2 * P * R / (P + R)
         return P, R, F1
 
-    def multi_word_target(self, target_list, y_true, y_pred):
+    def multi_each_target(self, target_list, y_true, y_pred):
         for i in range(0, len(target_list)):
             print("------", target_list[i], "------")
             recall, precision, f1 = MultiClassByWord.get_each_class_target(self, y_true, y_pred, target_list[i])
             print("召回率R为：", recall)
             print("准确率P为：", precision)
             print("F1为：", f1)
+
+    def multi_ave_target(self, y_true, y_pred):
         print("------平均值------")
         ave_recall, ave_precision, ave_f1 = MultiClassByWord.ave_target(self, y_true, y_pred)
         print("召回率R为：", ave_recall)

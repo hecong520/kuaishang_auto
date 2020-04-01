@@ -12,7 +12,8 @@ import xlwt
 from common.change_data_type import ChangeDataType
 from common.common_function import CommonFunction
 import time
-from algorithm.algorithm_func import Binary
+
+# from algorithm.algorithm_func import Binary
 
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
@@ -20,8 +21,7 @@ rootPath = os.path.split(curPath)[0]
 
 class GetSymptom:
 
-    def get_symtom(self, test_data_file, result_file):
-        # self.logging = Logging()
+    def get_symptom(self, test_data_file, result_file):
         test_data = ChangeDataType.json_to_dict(rootPath + "\\testdata\\apidata\\" + test_data_file)
         key_list = list(test_data.keys())
         value_list = list(test_data.values())
@@ -42,7 +42,7 @@ class GetSymptom:
             result_value_list.append(result_value)
             tf_list.append(tf)
 
-        Binary.binary_plot_curve(value_list, result_value_list)
+        # Binary.binary_plot_curve(value_list, result_value_list)
         now = time.strftime('%y_%m_%d-%H_%M_%S')
         workbook = xlwt.Workbook()
         sheet1 = workbook.add_sheet('sheet1', cell_overwrite_ok=True)

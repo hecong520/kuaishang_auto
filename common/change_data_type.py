@@ -36,7 +36,7 @@ class ChangeDataType:
         return str_json
 
     @staticmethod
-    def csv_to_dict(file):
+    def ner_csv_to_dict(file):
         test_data = pandas.read_csv(file, encoding="utf-8")
         exp_list = []
         re_list = []
@@ -46,7 +46,7 @@ class ChangeDataType:
         return exp_list, re_list
 
     @staticmethod
-    def nor_csv_to_dict(file):
+    def csv_to_dict(file):
         test_data = pandas.read_csv(file, encoding="utf-8")
         return test_data
 

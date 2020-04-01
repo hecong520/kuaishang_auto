@@ -13,7 +13,7 @@ import allure
 
 class TestIntent(object):
 
-    @pytest.mark.apitest
+    @pytest.mark.intenttest
     @allure.feature("意图识别")
-    def test_get_similarity(self):
-        GetIntent.get_intent(self, "意图识别.csv", "test2.xls")
+    def test_get_intent(self):
+        GetIntent.get_intent(self, "意图识别.csv", "intent_test_result.xls")

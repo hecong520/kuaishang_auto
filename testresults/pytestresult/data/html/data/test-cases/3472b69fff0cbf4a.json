@@ -1,5 +1,5 @@
 {
-  "uid" : "e453972b39ac901f",
+  "uid" : "3472b69fff0cbf4a",
   "name" : "test_get_similarity",
   "fullName" : "pytest.api.test_get_intent.TestIntent#test_get_similarity",
   "historyId" : "f3f50ad4fac162ae74e724ca1dabde50",
@@ -50,18 +50,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ "apitest" ]
   },
-  "source" : "e453972b39ac901f.json",
+  "source" : "3472b69fff0cbf4a.json",
   "parameterValues" : [ ]
 }

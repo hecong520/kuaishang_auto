@@ -11,7 +11,7 @@ import requests
 import time
 from common.change_data_type import ChangeDataType
 from common.common_function import CommonFunction
-from algorithm.algorithm_func import Binary
+from algorithm.algorithm_func import MultiClassByWord
 
 curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
@@ -23,6 +23,7 @@ class GetIntent:
         test_data = ChangeDataType.csv_to_dict(rootPath + "\\testdata\\apidata\\" + test_data_file)
         score_list = []
         re_intent_list = []
+        exp_intent_list = []
         tf_list = []
         for idx, temp in test_data.iterrows():
             intent = temp["intention"]
@@ -40,10 +41,11 @@ class GetIntent:
             # self.logging.info("句子：" + sentence + "---预期意图：" + intent
             #                   + "---实际意图：" + re_intent + "---是否一致：" + tf)
             score_list.append(score)
+            exp_intent_list.append(intent)
             re_intent_list.append(re_intent)
             tf_list.append(tf)
 
-        Binary.binary_plot_curve(value_list, result_value_list)
+        MultiClassByWord.multi_ave_target(self, exp_intent_list, re_intent_list)
         test_data["re_intent"] = re_intent_list
         test_data["score"] = score_list
         test_data = CommonFunction.get_collections(test_data, tf_list)

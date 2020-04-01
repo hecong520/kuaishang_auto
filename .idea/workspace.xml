@@ -2,83 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a68f835-effe-4429-a687-34ebae545105" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/algorithm_func.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/get_ner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest/api/test_get_ner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/apidata/bio_char.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/apidata/妇科NER识别.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/apidata/症状相似度.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ZL_AUTO_TEST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ZL_AUTO_TEST.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/algorithm_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/algorithm_func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/get_intent.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_intent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/get_similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_similarity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/get_ner.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_ner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/get_symptom.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_symptom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/change_data_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/change_data_type.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/get_different.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/get_different.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/take_roc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/test.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest/api/test_get_intent.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/api/test_get_intent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest/api/test_get_similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/api/test_get_similarity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest/api/test_get_symptom.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/api/test_get_symptom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/run_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/apidata/andrology_sym_to_test_2480.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/apidata/test1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/apidata/test2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/apidata/test3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/apidata/口语症状-标准症状映射0220.json" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/apidata/口语-标准症状映射.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/apidata/意图识别测试数据.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/apidata/意图识别.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/1429aa6e-f59e-4bbd-99af-a6ee1897fb6c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/2154a877-d75e-40fb-9d14-82047231da3f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/c5ce8edd-62c8-4a8a-83fe-08a947bfabad-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/2b008dbb7f586930.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/8bd290986077cc72.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/fd1eee1f08afa480.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/6805aea3db84ae74.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/e453972b39ac901f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/edc8f770f13e6214.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/f0b032a31afa728b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/summary.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testresults/result.zip" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/result.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/item_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/item_process.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +78,7 @@
     <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$get_symptom.coverage" NAME="get_symptom Coverage Results" MODIFIED="1582709469761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/symptoms_to_one" />
     <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_for_get_similarity_GetSimilarity.coverage" NAME="Unittests for get_similarity.GetSimilarity Coverage Results" MODIFIED="1583142390609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/similarity" />
     <SUITE FILE_PATH="coverage/kuaishang_auto$run_all__1_.coverage" NAME="run_all (1) Coverage Results" MODIFIED="1584530294413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest" />
-    <SUITE FILE_PATH="coverage/kuaishang_auto$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1585726776313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest" />
+    <SUITE FILE_PATH="coverage/kuaishang_auto$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1585730919143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytest" />
     <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$all_run.coverage" NAME="all_run Coverage Results" MODIFIED="1583740420794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
     <SUITE FILE_PATH="coverage/kuaishang_auto$common_function.coverage" NAME="common_function Coverage Results" MODIFIED="1585540240587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/ZL_AUTO_TEST$Unittests_for_test_get_symptom_TestSymptom_test_get_symtom.coverage" NAME="Unittests for test_get_symptom.TestSymptom.test_get_symtom Coverage Results" MODIFIED="1583142604391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
@@ -161,21 +125,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/get_ner.py">
+        <entry file="file://$PROJECT_DIR$/pytest/run_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-933">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="578">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pytest/api/test_get_ner.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytest/api/test_get_intent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+            <state relative-caret-position="486">
+              <caret line="18" column="66" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="66" />
               <folding>
-                <element signature="e#106#137#0" expanded="true" />
+                <element signature="e#103#139#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pytest/api/test_get_similarity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="432">
+              <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -193,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pytest/api/test_get_symptom.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="432">
+              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding>
                 <element signature="e#149#187#0" expanded="true" />
               </folding>
@@ -202,20 +166,68 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/algorithm_func.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/get_symptom.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="359">
+              <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+              <folding>
+                <element signature="e#149#158#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytest/run_all.py">
+        <entry file="file://$PROJECT_DIR$/testdata/apidata/意图识别.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="412">
+              <caret line="12540" selection-start-line="12540" selection-end-line="12540" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdata/apidata/tag.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="270">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/get_intent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#103#112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytest/api/test_get_ner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/get_ner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+              <folding>
+                <element signature="e#95#104#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -267,7 +279,6 @@
         <option value="$PROJECT_DIR$/algorithm/take_roc.py" />
         <option value="$PROJECT_DIR$/algorithm/Algorithm.py" />
         <option value="$PROJECT_DIR$/requirements" />
-        <option value="$PROJECT_DIR$/pytest/api/test_get_intent.py" />
         <option value="$PROJECT_DIR$/testdata/apidata/test.txt" />
         <option value="$PROJECT_DIR$/testdata/apidata/test_gynaecology.txt" />
         <option value="$PROJECT_DIR$/testdata/apidata/test_changespace.txt" />
@@ -278,7 +289,6 @@
         <option value="$PROJECT_DIR$/algorithm/test3.py" />
         <option value="$PROJECT_DIR$/algorithm/test.py" />
         <option value="$PROJECT_DIR$/testdata/apidata/妇科NER识别.csv" />
-        <option value="$PROJECT_DIR$/common/change_data_type.py" />
         <option value="$PROJECT_DIR$/testresults/resultfile/ner_test_result.csv" />
         <option value="$PROJECT_DIR$/testdata/apidata/bio_char_result.csv" />
         <option value="$PROJECT_DIR$/testdata/apidata/test30.csv" />
@@ -286,22 +296,24 @@
         <option value="$PROJECT_DIR$/algorithm/test2.py" />
         <option value="$PROJECT_DIR$/common/common_function.py" />
         <option value="$PROJECT_DIR$/common/get_different.py" />
-        <option value="$PROJECT_DIR$/algorithm/algorithm_func.py" />
         <option value="$PROJECT_DIR$/algorithm/ner_test.py" />
         <option value="$PROJECT_DIR$/testdata/apidata/bio_char.txt" />
-        <option value="$PROJECT_DIR$/api/get_ner.py" />
         <option value="$PROJECT_DIR$/algorithm/take_tf_target.py" />
         <option value="$PROJECT_DIR$/api/get_similarity.py" />
-        <option value="$PROJECT_DIR$/api/get_symptom.py" />
+        <option value="$PROJECT_DIR$/common/change_data_type.py" />
+        <option value="$PROJECT_DIR$/pytest/api/test_get_ner.py" />
+        <option value="$PROJECT_DIR$/algorithm/algorithm_func.py" />
+        <option value="$PROJECT_DIR$/api/get_ner.py" />
         <option value="$PROJECT_DIR$/api/get_intent.py" />
+        <option value="$PROJECT_DIR$/pytest/run_all.py" />
+        <option value="$PROJECT_DIR$/pytest/api/test_get_intent.py" />
         <option value="$PROJECT_DIR$/pytest/api/test_get_similarity.py" />
         <option value="$PROJECT_DIR$/pytest/api/test_get_symptom.py" />
-        <option value="$PROJECT_DIR$/pytest/run_all.py" />
-        <option value="$PROJECT_DIR$/pytest/api/test_get_ner.py" />
+        <option value="$PROJECT_DIR$/api/get_symptom.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="48" />
     <option name="width" value="1293" />
@@ -319,41 +331,6 @@
             <path>
               <item name="kuaishang_auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="kuaishang_auto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kuaishang_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kuaishang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kuaishang_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kuaishang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kuaishang_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kuaishang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="testresults" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kuaishang_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kuaishang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="testresults" type="462c0819:PsiDirectoryNode" />
-              <item name="pytestresult" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kuaishang_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kuaishang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="testresults" type="462c0819:PsiDirectoryNode" />
-              <item name="pytestresult" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kuaishang_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kuaishang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="testresults" type="462c0819:PsiDirectoryNode" />
-              <item name="resultfile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -556,7 +533,7 @@
       <workItem from="1585536855176" duration="1531000" />
       <workItem from="1585538600329" duration="711000" />
       <workItem from="1585539556932" duration="4030000" />
-      <workItem from="1585546757868" duration="13112000" />
+      <workItem from="1585546757868" duration="17593000" />
     </task>
     <servers />
   </component>
@@ -593,7 +570,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230318000" />
+    <option name="totallyTimeSpent" value="234799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,7 +586,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5008" side_tool="true" weight="0.15618336" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4992" visible="true" weight="0.14179105" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4992" visible="true" weight="0.19083156" />
       <window_info id="Structure" order="2" sideWeight="0.5008" side_tool="true" weight="0.15618336" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.36876357" />
@@ -619,14 +596,14 @@
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.25813448" />
       <window_info anchor="bottom" id="Python Console" order="6" weight="0.3275488" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.24728851" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49946696" visible="true" weight="0.36008677" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49946696" visible="true" weight="0.2407809" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.43383947" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3286334" />
       <window_info anchor="right" id="Database" order="0" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="2" weight="0.19989339" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.16044776" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
@@ -646,19 +623,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/Python3.7.3/Lib/site-packages/scipy/interpolate/polyint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Python3.7.3/Lib/site-packages/sklearn/metrics/_plot/base.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/Python3.7.3/Lib/site-packages/sklearn/metrics/_base.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://E:/Python3.7.3/Lib/site-packages/sklearn/datasets/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -751,16 +715,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testresults/resultfile/20_03_30-11_30_49new_test_result11.csv" />
-    <entry file="file://$PROJECT_DIR$/testdata/apidata/bio_char_result.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret selection-end-line="31" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testresults/resultfile/20_03_30-11_48_32new_test_result11.csv" />
     <entry file="file://$PROJECT_DIR$/testdata/apidata/test30.csv">
       <provider editor-type-id="csv-table-editor">
@@ -811,13 +765,6 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testdata/apidata/tag.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="3" selection-start-line="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/Test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -897,26 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/common_function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="121" column="50" selection-start-line="121" selection-start-column="50" selection-end-line="121" selection-end-column="50" />
-          <folding>
-            <element signature="e#102#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/change_data_type.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
-          <folding>
-            <element signature="e#104#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/ner_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-53">
@@ -927,65 +854,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/get_ner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-933">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/take_tf_target.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="79" column="26" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/algorithm_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/get_intent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/get_symptom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="43" selection-start-line="43" selection-end-line="44" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/get_similarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-          <folding>
-            <element signature="e#107#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytest/api/test_get_similarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytest/api/test_get_symptom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#149#187#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -999,29 +871,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/common_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <folding>
+            <element signature="e#102#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/get_similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="19" />
+          <folding>
+            <element signature="e#107#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/change_data_type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="e#104#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/apidata/症状相似度.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/apidata/意图识别.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="412">
+          <caret line="12540" selection-start-line="12540" selection-end-line="12540" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/apidata/bio_char_result.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/apidata/口语-标准症状映射.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/apidata/tag.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/get_intent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#103#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest/api/test_get_ner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/algorithm_func.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="193" column="24" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/get_ner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding>
+            <element signature="e#95#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pytest/api/test_get_intent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="486">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="66" />
           <folding>
             <element signature="e#103#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytest/run_all.py">
+    <entry file="file://$PROJECT_DIR$/pytest/api/test_get_similarity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="432">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytest/api/test_get_ner.py">
+    <entry file="file://$PROJECT_DIR$/pytest/api/test_get_symptom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+        <state relative-caret-position="432">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding>
-            <element signature="e#106#137#0" expanded="true" />
+            <element signature="e#149#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/get_symptom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding>
+            <element signature="e#149#158#0" expanded="true" />
           </folding>
         </state>
       </provider>

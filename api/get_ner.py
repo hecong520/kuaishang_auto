@@ -18,16 +18,6 @@ rootPath = os.path.split(curPath)[0]
 
 
 class GetNer:
-    # 得出BIO两个结果列
-    def get_data_list(self, test_data_file):
-        test_data = ChangeDataType.nor_csv_to_dict(rootPath + "\\testresults\\resultfile\\" + test_data_file)
-        lb_list1 = []
-        lb_list2 = []
-        for idx, temp in test_data.iterrows():
-            lb_list1.append(str(temp["exp_bio"]))
-            lb_list2.append(str(temp["re_bio"]))
-        return lb_list1, lb_list2
-
     # 得出标签值
     def get_target(self, file):
         target_list = []
@@ -39,8 +29,9 @@ class GetNer:
     # 调用函数得出准确率，召回率，F1
     def get_ner_result(self, target_file, data_file):
         target_list = GetNer.get_target(self, target_file)
-        lb_list1, lb_list2 = GetNer.get_data_list(self, data_file)
-        MultiClassByWord.multi_word_target(self, target_list, lb_list1, lb_list2)
+        lb_list1, lb_list2 = ChangeDataType.ner_csv_to_dict(rootPath + "\\testresults\\resultfile\\" + data_file)
+        MultiClassByWord.multi_each_target(self, target_list, lb_list1, lb_list2)
+        MultiClassByWord.multi_ave_target(self, lb_list1, lb_list2)
 
     def get_ner(self, origin_test_data_file, test_data_file, result_file, target_file):
         CommonFunction.get_txt_to_csv(origin_test_data_file, test_data_file)

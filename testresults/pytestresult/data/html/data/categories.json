@@ -4,46 +4,18 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "KeyError: 'exp_bio'",
-      "children" : [ {
-        "name" : "test_get_similarity",
-        "uid" : "e453972b39ac901f",
-        "parentUid" : "0125e1d2ebe142386429b568d931583d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1585726778355,
-          "stop" : 1585726778380,
-          "duration" : 25
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_get_similarity",
-        "uid" : "f0b032a31afa728b",
-        "parentUid" : "0125e1d2ebe142386429b568d931583d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1585726972066,
-          "stop" : 1585726972077,
-          "duration" : 11
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0125e1d2ebe142386429b568d931583d"
-    }, {
       "name" : "ValueError: multiclass format is not supported",
       "children" : [ {
-        "name" : "test_get_symtom",
-        "uid" : "edc8f770f13e6214",
+        "name" : "test_get_similarity",
+        "uid" : "70236c747493f9fd",
         "parentUid" : "930c27c67778987aa0d70783113a5604",
         "status" : "broken",
         "time" : {
-          "start" : 1585726972256,
-          "stop" : 1585727085037,
-          "duration" : 112781
+          "start" : 1585729370409,
+          "stop" : 1585729713499,
+          "duration" : 343090
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "930c27c67778987aa0d70783113a5604"

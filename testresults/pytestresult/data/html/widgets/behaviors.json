@@ -7,7 +7,18 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "ff03dcdeb0e9528d5bdca058c38677c4",
+    "name" : "Ner实体识别",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }
@@ -16,26 +27,15 @@
     "name" : "症状相似度",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }
   }, {
     "uid" : "cbf7d9a70dbac058dc21d4ece7896a3e",
     "name" : "症状归一化",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "ff03dcdeb0e9528d5bdca058c38677c4",
-    "name" : "Ner实体识别",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

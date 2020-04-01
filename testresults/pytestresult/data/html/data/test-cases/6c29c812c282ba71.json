@@ -1,5 +1,5 @@
 {
-  "uid" : "6805aea3db84ae74",
+  "uid" : "6c29c812c282ba71",
   "name" : "test_get_ner",
   "fullName" : "pytest.api.test_get_ner.TestNer#test_get_ner",
   "historyId" : "d8540c5ad7e84c36960538bd2f6c1a29",
@@ -48,14 +48,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ "apitest" ]
   },
-  "source" : "6805aea3db84ae74.json",
+  "source" : "6c29c812c282ba71.json",
   "parameterValues" : [ ]
 }

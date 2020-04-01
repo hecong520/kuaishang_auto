@@ -1,0 +1,59 @@
+{
+  "uid" : "63810bbff09a92a3",
+  "name" : "test_get_similarity",
+  "fullName" : "pytest.api.test_get_similarity.TestSimilarity#test_get_similarity",
+  "historyId" : "003a7f02b4e8a7212a1ed3856330a7df",
+  "time" : {
+    "start" : 1585727978142,
+    "stop" : 1585728054271,
+    "duration" : 76129
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "症状相似度"
+  }, {
+    "name" : "tag",
+    "value" : "apitest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_similarity"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSimilarity"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "22000-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.api.test_get_similarity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "apitest" ]
+  },
+  "source" : "63810bbff09a92a3.json",
+  "parameterValues" : [ ]
+}

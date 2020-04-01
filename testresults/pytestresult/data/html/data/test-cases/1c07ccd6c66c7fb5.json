@@ -1,5 +1,5 @@
 {
-  "uid" : "edc8f770f13e6214",
+  "uid" : "1c07ccd6c66c7fb5",
   "name" : "test_get_symtom",
   "fullName" : "pytest.api.test_get_symptom.TestSymptom#test_get_symtom",
   "historyId" : "7b46c8037517edd24c97eef896a047a2",
@@ -50,18 +50,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ "apitest" ]
   },
-  "source" : "edc8f770f13e6214.json",
+  "source" : "1c07ccd6c66c7fb5.json",
   "parameterValues" : [ ]
 }
