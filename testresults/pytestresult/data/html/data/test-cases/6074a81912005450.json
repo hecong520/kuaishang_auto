@@ -1,0 +1,61 @@
+{
+  "uid" : "6074a81912005450",
+  "name" : "test_get_eye_intent",
+  "fullName" : "pytest.api.test_get_intent.TestIntent#test_get_eye_intent",
+  "historyId" : "fcf95f8489dbdfca543f9a4451eb4a84",
+  "time" : {
+    "start" : 1586773314450,
+    "stop" : 1586773314465,
+    "duration" : 15
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'intention'",
+  "statusTrace" : "self = Index(['Unnamed: 0', 'uuid', 'text', 'cluster_name'], dtype='object')\nseries = Unnamed: 0                   5375\nuuid            E3830330004297030\ntext                         还有没有\ncluster_name                    无\nName: 0, dtype: object\nkey = 'intention'\n\n    @Appender(_index_shared_docs[\"get_value\"] % _index_doc_kwargs)\n    def get_value(self, series, key):\n    \n        # if we have something that is Index-like, then\n        # use this, e.g. DatetimeIndex\n        # Things like `Series._get_value` (via .at) pass the EA directly here.\n        s = extract_array(series, extract_numpy=True)\n        if isinstance(s, ExtensionArray):\n            if is_scalar(key):\n                # GH 20882, 21257\n                # First try to convert the key to a location\n                # If that fails, raise a KeyError if an integer\n                # index, otherwise, see if key is an integer, and\n                # try that\n                try:\n                    iloc = self.get_loc(key)\n                    return s[iloc]\n                except KeyError:\n                    if len(self) > 0 and (self.holds_integer() or self.is_boolean()):\n                        raise\n                    elif is_integer(key):\n                        return s[key]\n            else:\n                # if key is not a scalar, directly raise an error (the code below\n                # would convert to numpy arrays and raise later any way) - GH29926\n                raise InvalidIndexError(key)\n    \n        s = com.values_from_object(series)\n        k = com.values_from_object(key)\n    \n        k = self._convert_scalar_indexer(k, kind=\"getitem\")\n        try:\n            return self._engine.get_value(s, k, tz=getattr(series.dtype, \"tz\", None))\n        except KeyError as e1:\n            if len(self) > 0 and (self.holds_integer() or self.is_boolean()):\n                raise\n    \n            try:\n>               return libindex.get_value_at(s, key)\n\nE:\\Python3.7.3\\lib\\site-packages\\pandas\\core\\indexes\\base.py:4410: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n>   ???\n\npandas\\_libs\\index.pyx:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n>   ???\n\npandas\\_libs\\index.pyx:45: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n>   ???\n\npandas\\_libs\\util.pxd:98: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n>   ???\nE   TypeError: 'str' object cannot be interpreted as an integer\n\npandas\\_libs\\util.pxd:83: TypeError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_get_intent.TestIntent object at 0x0000018B14619A20>\n\n    @pytest.mark.eyeintenttest\n    @allure.feature(\"意图识别\")\n    def test_get_eye_intent(self):\n        # GetIntent.get_intent(self, \"intent_tag.txt\", \"意图识别.csv\", \"intent_test_result.xls\")\n        GetIntent.get_eye_intent(self, \"eye_intent.csv\", \"data_split - 副本.csv\",\n>                                \"eye_intent_test_result.xls\")\n\napi\\test_get_intent.py:21: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\api\\get_intent.py:126: in get_eye_intent\n    intent = temp[\"intention\"]\nE:\\Python3.7.3\\lib\\site-packages\\pandas\\core\\series.py:871: in __getitem__\n    result = self.index.get_value(self, key)\nE:\\Python3.7.3\\lib\\site-packages\\pandas\\core\\indexes\\base.py:4418: in get_value\n    raise e1\nE:\\Python3.7.3\\lib\\site-packages\\pandas\\core\\indexes\\base.py:4404: in get_value\n    return self._engine.get_value(s, k, tz=getattr(series.dtype, \"tz\", None))\npandas\\_libs\\index.pyx:80: in pandas._libs.index.IndexEngine.get_value\n    ???\npandas\\_libs\\index.pyx:90: in pandas._libs.index.IndexEngine.get_value\n    ???\npandas\\_libs\\index.pyx:138: in pandas._libs.index.IndexEngine.get_loc\n    ???\npandas\\_libs\\hashtable_class_helper.pxi:1619: in pandas._libs.hashtable.PyObjectHashTable.get_item\n    ???\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n>   ???\nE   KeyError: 'intention'\n\npandas\\_libs\\hashtable_class_helper.pxi:1627: KeyError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "意图识别"
+  }, {
+    "name" : "tag",
+    "value" : "eyeintenttest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_intent"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIntent"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "9012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.api.test_get_intent"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "eyeintenttest" ]
+  },
+  "source" : "6074a81912005450.json",
+  "parameterValues" : [ ]
+}

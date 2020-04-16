@@ -1,25 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "ValueError: multiclass format is not supported",
-      "children" : [ {
-        "name" : "test_get_similarity",
-        "uid" : "70236c747493f9fd",
-        "parentUid" : "930c27c67778987aa0d70783113a5604",
-        "status" : "broken",
-        "time" : {
-          "start" : 1585729370409,
-          "stop" : 1585729713499,
-          "duration" : 343090
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "930c27c67778987aa0d70783113a5604"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

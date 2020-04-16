@@ -1,37 +1,15 @@
 {
-  "total" : 4,
+  "total" : 2,
   "items" : [ {
     "uid" : "bbf45a08ca61e19993ac78ffe6825d18",
     "name" : "意图识别",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "ff03dcdeb0e9528d5bdca058c38677c4",
-    "name" : "Ner实体识别",
-    "statistic" : {
-      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "d5f777312c4b597b80413a5fdb70dd49",
-    "name" : "症状相似度",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
+      "total" : 3
     }
   }, {
     "uid" : "cbf7d9a70dbac058dc21d4ece7896a3e",
@@ -40,9 +18,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   } ]
 }

@@ -1,0 +1,59 @@
+{
+  "uid" : "22af4eada6107f1a",
+  "name" : "test_get_pro_symptom",
+  "fullName" : "pytest.api.test_get_symptom.TestSymptom#test_get_pro_symptom",
+  "historyId" : "666d2c3711d5cb3204ab9f31b60fd464",
+  "time" : {
+    "start" : 1586760151679,
+    "stop" : 1586760437163,
+    "duration" : 285484
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "症状归一化"
+  }, {
+    "name" : "tag",
+    "value" : "sysmptiontest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_symptom"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSymptom"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "8000-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.api.test_get_symptom"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "sysmptiontest" ]
+  },
+  "source" : "22af4eada6107f1a.json",
+  "parameterValues" : [ ]
+}

@@ -35,7 +35,17 @@ class Test:
         print(s_result)
         print(n)
 
+    def test3(self):
+        i = 6
+        j = 6.0
+        if i == j:
+            result = "true"
+        else:
+            result = "false"
+        print(result)
+
 
 test = Test()
-test.test2("abcdef")
-print(test.test1("abcdef", 0))
+test.test3()
+# test.test2("abcdef")
+# print(test.test1("abcdef", 0))

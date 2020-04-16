@@ -4,73 +4,85 @@
   "children" : [ {
     "name" : "WIN-OQ20V7UABJF",
     "children" : [ {
-      "name" : "19556-MainThread",
+      "name" : "23296-MainThread",
       "children" : [ {
-        "name" : "test_get_symtom",
-        "uid" : "45eae3acdae6950e",
-        "parentUid" : "907dad6129d7d8a699af80909c8470c3",
+        "name" : "test_get_pro_intent",
+        "uid" : "87905629ff21f703",
+        "parentUid" : "fbe73866ae35fd6c8c9c83123d51ef00",
         "status" : "passed",
         "time" : {
-          "start" : 1585729981269,
-          "stop" : 1585730092899,
-          "duration" : 111630
+          "start" : 1586835667615,
+          "stop" : 1586836549949,
+          "duration" : 882334
         },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_get_similarity",
-        "uid" : "72800d05e67e5340",
-        "parentUid" : "907dad6129d7d8a699af80909c8470c3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1585729904373,
-          "stop" : 1585729981263,
-          "duration" : 76890
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_get_similarity",
-        "uid" : "70236c747493f9fd",
-        "parentUid" : "907dad6129d7d8a699af80909c8470c3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1585729370409,
-          "stop" : 1585729713499,
-          "duration" : 343090
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_get_ner",
-        "uid" : "472847a8b23c7184",
-        "parentUid" : "907dad6129d7d8a699af80909c8470c3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1585729713680,
-          "stop" : 1585729904370,
-          "duration" : 190690
-        },
-        "flaky" : true,
+        "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "907dad6129d7d8a699af80909c8470c3"
+      "uid" : "fbe73866ae35fd6c8c9c83123d51ef00"
     }, {
-      "name" : "14504-MainThread",
+      "name" : "8000-MainThread",
       "children" : [ {
-        "name" : "test_get_intent",
-        "uid" : "4a452ccbf73ca36",
-        "parentUid" : "8fbcf0b4f3e931fe480ffa2fb768b5f2",
+        "name" : "test_get_test_symptom",
+        "uid" : "e719e77bacace03c",
+        "parentUid" : "f10e9c12ab10aaca09a64fecc51ac329",
         "status" : "passed",
         "time" : {
-          "start" : 1585730921342,
-          "stop" : 1585731266660,
-          "duration" : 345318
+          "start" : 1586760042278,
+          "stop" : 1586760151675,
+          "duration" : 109397
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f10e9c12ab10aaca09a64fecc51ac329"
+    }, {
+      "name" : "2712-MainThread",
+      "children" : [ {
+        "name" : "test_get_eye_intent",
+        "uid" : "40b6878efe7d9ce4",
+        "parentUid" : "4d013b01c413c02d6d925e2d195eda20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586922528022,
+          "stop" : 1586922961194,
+          "duration" : 433172
         },
         "flaky" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "8fbcf0b4f3e931fe480ffa2fb768b5f2"
+      "uid" : "4d013b01c413c02d6d925e2d195eda20"
+    }, {
+      "name" : "25096-MainThread",
+      "children" : [ {
+        "name" : "test_get_pro_symptom",
+        "uid" : "3d57cb7a67a6cd98",
+        "parentUid" : "66696c66ce1e1c07190490730972998b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586835196677,
+          "stop" : 1586835482148,
+          "duration" : 285471
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66696c66ce1e1c07190490730972998b"
+    }, {
+      "name" : "25476-MainThread",
+      "children" : [ {
+        "name" : "test_get_test_intent",
+        "uid" : "b2705fdbc3e09865",
+        "parentUid" : "350f85dceddfafb4ac70baace0c8fbda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586767837453,
+          "stop" : 1586768184854,
+          "duration" : 347401
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "350f85dceddfafb4ac70baace0c8fbda"
     } ],
     "uid" : "c1d739ea2cde58890d0f87d35a80f37b"
   } ]

@@ -1,0 +1,59 @@
+{
+  "uid" : "7e0883051337e445",
+  "name" : "test_get_eye_intent",
+  "fullName" : "pytest.api.test_get_intent.TestIntent#test_get_eye_intent",
+  "historyId" : "fcf95f8489dbdfca543f9a4451eb4a84",
+  "time" : {
+    "start" : 1586865176133,
+    "stop" : 1586865603785,
+    "duration" : 427652
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "意图识别"
+  }, {
+    "name" : "tag",
+    "value" : "eyeintenttest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_intent"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIntent"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "25284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.api.test_get_intent"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "eyeintenttest" ]
+  },
+  "source" : "7e0883051337e445.json",
+  "parameterValues" : [ ]
+}

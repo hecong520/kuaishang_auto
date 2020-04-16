@@ -13,11 +13,14 @@ import allure
 
 class TestSymptom(object):
 
-    @pytest.mark.apitest
-    @allure.feature("症状归一化")
-    def test_get_symptom(self):
-        GetSymptom.get_symptom(self, "口语-标准症状映射.json", "symptom_test_result.xls")
+    # @pytest.mark.sysmptiontest
+    # @allure.feature("症状归一化")
+    # def test_get_test_symptom(self):
+    #     GetSymptom.get_symptom(self, "http://192.168.1.74:9001/symptom_norm/v1?symptoms={}", "口语-标准症状映射.json",
+    #                            "symptom_test_result.xls")
 
-#
-# if __name__ == '__main__':
-#     unittest.main()
+    @pytest.mark.sysmptiontest
+    @allure.feature("症状归一化")
+    def test_get_pro_symptom(self):
+        GetSymptom.get_pro_symptom(self, "http://10.13.8.230:8094/symptom_norm/v1?symptoms={}", "口语-标准症状映射.json",
+                                   "symptom_pro_result.xls")

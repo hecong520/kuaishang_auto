@@ -1,0 +1,79 @@
+{
+  "uid" : "b2705fdbc3e09865",
+  "name" : "test_get_test_intent",
+  "fullName" : "pytest.api.test_get_intent.TestIntent#test_get_test_intent",
+  "historyId" : "3f93578ac7f29b8312725488095d68eb",
+  "time" : {
+    "start" : 1586767837453,
+    "stop" : 1586768184854,
+    "duration" : 347401
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "意图识别"
+  }, {
+    "name" : "tag",
+    "value" : "intenttest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_intent"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestIntent"
+  }, {
+    "name" : "host",
+    "value" : "WIN-OQ20V7UABJF"
+  }, {
+    "name" : "thread",
+    "value" : "25476-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest.api.test_get_intent"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b23e8c81919ac36",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 're_intent' referenced before assignment",
+      "time" : {
+        "start" : 1586762684288,
+        "stop" : 1586762689325,
+        "duration" : 5037
+      }
+    }, {
+      "uid" : "8369686de2ddedf0",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 're_intent' referenced before assignment",
+      "time" : {
+        "start" : 1586761653078,
+        "stop" : 1586761658120,
+        "duration" : 5042
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "intenttest" ]
+  },
+  "source" : "b2705fdbc3e09865.json",
+  "parameterValues" : [ ]
+}

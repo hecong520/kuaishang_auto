@@ -132,19 +132,21 @@ class MultiClassByWord:
         return 2 * P * R / (P + R)
 
     def get_each_class_target(self, lb_list1, lb_list2, point):
-        tp, fp, fn, tn = MultiClassByWord.get_result_prob(self, lb_list1, lb_list2, point)
+        tp, fp, fn, tn, n = MultiClassByWord.get_result_prob(self, lb_list1, lb_list2, point)
         recall = MultiClassByWord.get_recall_score1(tp, fn)
         precision = MultiClassByWord.get_precision_score1(tp, fp)
         f1 = MultiClassByWord.get_f1_score1(tp, fp, fn)
-        return recall, precision, f1
+        return recall, precision, f1, n
 
     # 得出每个分类的tp, fp, fn, tn值
     def get_result_prob(self, lb_list1, lb_list2, point):
+        n = 0
         fn = 0
         tp = 0
         fp = 0
         tn = 0
         for i in range(0, len(lb_list1)):
+            n = n + 1
             if point in lb_list1[i]:
                 if lb_list1[i] == lb_list2[i]:
                     tp = tp + 1
@@ -158,42 +160,104 @@ class MultiClassByWord:
                     fp = fp + 1
             else:
                 tn = tn + 1
-        return tp, fp, fn, tn
+        return tp, fp, fn, tn, n
 
-    # 直接算出平均召回率，准确率，F1值
-    def ave_target(self, lb_list1, lb_list2):
-        result = list(zip(lb_list1, lb_list2))
+    # 得出每个分类的tp, fp, fn, tn值
+    def class_target(self, bz_intent_list, re_intent_list, point):
+        pn = 0
+        rn = 0
+        tn = 0
+        result = list(zip(bz_intent_list, re_intent_list))
         count_all_p = 0
         count_p = 0
         count_all_r = 0
         count_r = 0
         for res in result:
-            tag_bio = res[0]
-            pre_bio = res[1]
-            if pre_bio != "O":
-                count_all_p += 1
-                if tag_bio == pre_bio:
-                    count_p += 1
-            if tag_bio != "O":
+            bz_bio = res[0]  # 人工标注
+            re_bio = res[1]  # 接口返回
+            if bz_bio == point:
                 count_all_r += 1
-                if tag_bio == pre_bio:
+                pn = pn + 1
+                if bz_bio == re_bio:
                     count_r += 1
-        P = count_p / count_all_p
-        R = count_r / count_all_r
-        F1 = 2 * P * R / (P + R)
-        return P, R, F1
+                    tn = tn + 1
+            if re_bio == point:
+                rn = rn + 1
+                count_all_p += 1
+                if bz_bio == re_bio:
+                    count_p += 1
+        if count_all_p != 0 and count_all_r != 0:
+            p = count_p / count_all_p
+            r = count_r / count_all_r
+            f1 = 2 * p * r / (p + r)
+        else:
+            p = 0
+            r = 0
+            f1 = 0
+        return p, r, f1, pn, rn, tn
 
-    def multi_each_target(self, target_list, y_true, y_pred):
+    # 直接算出平均召回率，准确率，F1值
+    def ave_target(self, bz_intent_list, re_intent_list, point):
+        pn = 0
+        rn = 0
+        tn = 0
+        n = 0
+        result = list(zip(bz_intent_list, re_intent_list))
+        count_all_p = 0
+        count_p = 0
+        count_all_r = 0
+        count_r = 0
+        for res in result:
+            bz_bio = res[0]  # 人工标注
+            re_bio = res[1]  # 接口返回
+            n = n + 1
+            if bz_bio != point:
+                count_all_r += 1
+                pn = pn + 1
+                if bz_bio == re_bio:
+                    count_r += 1
+                    tn = tn + 1
+            if re_bio != point:
+                count_all_p += 1
+                rn = rn + 1
+                if re_bio == bz_bio:
+                    count_p += 1
+        p = count_p / count_all_p
+        r = count_r / count_all_r
+        f1 = 2 * p * r / (p + r)
+        return p, r, f1, pn, rn, tn
+
+    def multi_each_target(self, target_list, bz_intent_list, re_intent_list):
+        recall_list = []
+        precision_list = []
+        f1_list = []
+        pn_list = []
+        rn_list = []
+        tn_list = []
         for i in range(0, len(target_list)):
             print("------", target_list[i], "------")
-            recall, precision, f1 = MultiClassByWord.get_each_class_target(self, y_true, y_pred, target_list[i])
-            print("召回率R为：", recall)
-            print("准确率P为：", precision)
+            p, r, f1, pn, rn, tn = MultiClassByWord.class_target(self, bz_intent_list, re_intent_list, target_list[i])
+            print("人工标注数量为：", pn)
+            print("接口预测数量为：", rn)
+            print("结果一致数量为：", tn)
+            print("准确率P为：", p)
+            print("召回率R为：", r)
             print("F1为：", f1)
+            recall_list.append(r)
+            precision_list.append(p)
+            f1_list.append(f1)
+            pn_list.append(pn)
+            rn_list.append(rn)
+            tn_list.append(tn)
+        return precision_list, recall_list, f1_list, pn_list, rn_list, tn_list
 
-    def multi_ave_target(self, y_true, y_pred):
-        print("------平均值------")
-        ave_recall, ave_precision, ave_f1 = MultiClassByWord.ave_target(self, y_true, y_pred)
-        print("召回率R为：", ave_recall)
-        print("准确率P为：", ave_precision)
-        print("F1为：", ave_f1)
+    def multi_ave_target(self, bz_intent_list, re_intent_list, point):
+        print("------平均值(有效数据)------")
+        p, r, f1, pn, rn, tn = MultiClassByWord.ave_target(self, bz_intent_list, re_intent_list, point)
+        print("人工标注数量为：", pn)
+        print("接口预测数量为：", rn)
+        print("结果一致数量为：", tn)
+        print("召回率R为：", r)
+        print("准确率P为：", p)
+        print("F1为：", f1)
+        return p, r, f1, pn, rn, tn

@@ -15,32 +15,42 @@ rootPath = os.path.split(curPath)[0]
 
 class Config:
     def __init__(self):
+        """
+        初始化config，读取config文件
+        """
         self.config = configparser.ConfigParser()
         self.config.read(rootPath + "\\testdata\\config.txt", encoding='UTF-8')
         self.conf = {}
 
     def get_email(self):
-        # Email
-        self.conf['login_email'] = self.config.get("email", "login_email")
-        self.conf['login_password'] = self.config.get("email", "login_password")
-        self.conf['port'] = self.config.get("email", "port")
-        self.conf['smtp'] = self.config.get("email", "smtp")
-        self.conf['Recipient'] = self.config.get("email", "Recipient")
-        self.conf['subject'] = self.config.get("email", "subject")
-        self.conf['mailbody'] = self.config.get("email", "mailbody")
+        """
+        获取email的各种参数配置值
+        """
+        self.conf['login_email'] = self.config.get("Email", "login_email")
+        self.conf['login_password'] = self.config.get("Email", "login_password")
+        self.conf['port'] = self.config.get("Email", "port")
+        self.conf['smtp'] = self.config.get("Email", "smtp")
+        self.conf['Recipient'] = self.config.get("Email", "Recipient")
+        self.conf['subject'] = self.config.get("Email", "subject")
+        self.conf['mailbody'] = self.config.get("Email", "mailbody")
         return self.conf
 
 
 class GetXpath:
     def __init__(self):
+        """
+        初始化config，读取xpath文件
+        """
         self.config = configparser.ConfigParser()
         self.config.read(rootPath + "\\testdata\\uidata\\xpath.txt", encoding='UTF-8')
         self.conf = {}
 
     def get_xpth(self):
-        # UI
-        self.conf['chat_box'] = self.config.get("ui-process", "chat_box")
-        self.conf['send_btn'] = self.config.get("ui-process", "send_btn")
+        """
+        获取xpath的各种参数配置值
+        """
+        self.conf['chat_box'] = self.config.get("UI-PROCESS", "chat_box")
+        self.conf['send_btn'] = self.config.get("UI-PROCESS", "send_btn")
         return self.conf
 
 

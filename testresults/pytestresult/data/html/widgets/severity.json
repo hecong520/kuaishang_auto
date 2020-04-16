@@ -1,50 +1,50 @@
 [ {
-  "uid" : "70236c747493f9fd",
-  "name" : "test_get_similarity",
+  "uid" : "e719e77bacace03c",
+  "name" : "test_get_test_symptom",
   "time" : {
-    "start" : 1585729370409,
-    "stop" : 1585729713499,
-    "duration" : 343090
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "472847a8b23c7184",
-  "name" : "test_get_ner",
-  "time" : {
-    "start" : 1585729713680,
-    "stop" : 1585729904370,
-    "duration" : 190690
+    "start" : 1586760042278,
+    "stop" : 1586760151675,
+    "duration" : 109397
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "72800d05e67e5340",
-  "name" : "test_get_similarity",
+  "uid" : "40b6878efe7d9ce4",
+  "name" : "test_get_eye_intent",
   "time" : {
-    "start" : 1585729904373,
-    "stop" : 1585729981263,
-    "duration" : 76890
+    "start" : 1586922528022,
+    "stop" : 1586922961194,
+    "duration" : 433172
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4a452ccbf73ca36",
-  "name" : "test_get_intent",
+  "uid" : "87905629ff21f703",
+  "name" : "test_get_pro_intent",
   "time" : {
-    "start" : 1585730921342,
-    "stop" : 1585731266660,
-    "duration" : 345318
+    "start" : 1586835667615,
+    "stop" : 1586836549949,
+    "duration" : 882334
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "45eae3acdae6950e",
-  "name" : "test_get_symtom",
+  "uid" : "3d57cb7a67a6cd98",
+  "name" : "test_get_pro_symptom",
   "time" : {
-    "start" : 1585729981269,
-    "stop" : 1585730092899,
-    "duration" : 111630
+    "start" : 1586835196677,
+    "stop" : 1586835482148,
+    "duration" : 285471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2705fdbc3e09865",
+  "name" : "test_get_test_intent",
+  "time" : {
+    "start" : 1586767837453,
+    "stop" : 1586768184854,
+    "duration" : 347401
   },
   "status" : "passed",
   "severity" : "normal"

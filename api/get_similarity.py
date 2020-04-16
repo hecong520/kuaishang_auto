@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 '''
 Created on 2020/2/26
-@File  : test_get_similarity.py
+@File  : test_get_symptom_similarity.py
 @author: ZL
 @Desc  :
 '''
@@ -17,9 +17,9 @@ curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 
 
-class GetSimilarity:
+class GetSymptomSimilarity:
 
-    def get_similarity(self, test_data_file, result_file):
+    def get_symptom_similarity(self, test_data_file, result_file):
         # self.logging = Logging()
         test_data = ChangeDataType.csv_to_dict(rootPath + "\\testdata\\apidata\\" + test_data_file)
         score_list = []
@@ -55,3 +55,5 @@ class GetSimilarity:
         now = time.strftime('%y_%m_%d-%H_%M_%S')
         test_data.to_excel(rootPath + '\\testresults\\resultfile\\' + now + result_file, index=False,
                            encoding="utf-8")
+
+

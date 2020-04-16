@@ -13,8 +13,10 @@ import allure
 
 class TestNer(object):
 
-    @pytest.mark.apitest
+    @pytest.mark.nertest
     @allure.feature("Ner实体识别")
     def test_get_ner(self):
+        """
+        调用get_ner脚本
+        """
         GetNer.get_ner(self, "bio_char.txt", "bio_char_result.csv", "ner_test_result.csv", "tag.txt")
-

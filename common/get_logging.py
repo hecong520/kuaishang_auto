@@ -22,6 +22,9 @@ if not os.path.exists(log_path):
 class Logging:
 
     def __init__(self):
+        """
+        操作记录log
+        """
 
         # 文件的命名
         self.logname = os.path.join(log_path, '%s.log' % time.strftime('%Y_%m_%d'))
