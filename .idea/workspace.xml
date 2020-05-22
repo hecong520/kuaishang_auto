@@ -1,112 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a68f835-effe-4429-a687-34ebae545105" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/get_qa_similarity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/get_sentence_similarity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/get_relation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest/api/test_get_qa_similarity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest/api/test_get_sentence_similarity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/apidata/data_split - 副本.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/apidata/eye_intent.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/apidata/eye_intent.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/apidata/intent_tag.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/apidata/ophthalmology_intention_to_test_7000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/apidata/相似度原始数据-男科.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/algorithm_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/algorithm_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/get_intent.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_intent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/get_ner.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_ner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/get_similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_similarity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/get_symptom.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/get_symptom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/change_data_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/change_data_type.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/get_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/get_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/get_different.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/get_different.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/get_logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/get_logging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/send_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/performs/test_performs.py" beforeDir="false" afterPath="$PROJECT_DIR$/performs/test_performs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest/api/test_get_intent.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/api/test_get_intent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest/api/test_get_ner.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/api/test_get_ner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest/api/test_get_similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/api/test_get_symptom_similarity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest/api/test_get_symptom.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/api/test_get_symptom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytest/run_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/config.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/uidata/xpath.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/uidata/xpath.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/0764404d-b27f-44cc-b903-dee166c029f1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/0c89318f-6433-470c-b1e9-f378659a5edf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/1d3fced0-8866-4020-ada3-6f9b1895aa30-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/30adad55-4c90-491c-b73b-ff1d447beac4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/3162f6bb-3e18-42a8-aeef-93c2874727ea-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/37f9f775-9294-4757-9bb4-84a055b68d37-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/3ec9b07d-4004-4585-912a-0f036ecfe25b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/64568536-6ed9-4b15-90f0-eacfb56aa156-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/67451a31-dc5d-4760-bfa8-0ea515d4a587-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/7f0cae8f-d62b-4b3a-ae2f-0d382308d8bd-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/85d0cdac-5ddd-43ed-8d7f-e8809ddece71-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/aba6bf54-b92c-42f2-bc70-0d34c729c2b8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/b0a5fb42-eeb1-4c5c-bcb1-de2e35c1aedb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/b333b2f7-7f22-49e3-ad66-f33c2393a264-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/c030e85f-d451-4130-afa4-924da2ff5138-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/d851f4a9-de00-4ebf-a262-7c574842fecb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/145fe9b75e23bc4e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/1c07ccd6c66c7fb5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/26351b1455dd7f37.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/3472b69fff0cbf4a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/45eae3acdae6950e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/472847a8b23c7184.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/49703e70dd2c78c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/4a452ccbf73ca36.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/63810bbff09a92a3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/6c29c812c282ba71.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/70236c747493f9fd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/72800d05e67e5340.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/a655df47b1c44e76.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/b681a5ac7b85ec21.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/bd292fcbf99c1d4e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/test-cases/dda0f45237ce4ff0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/pytestresult/data/html/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testresults/result.zip" beforeDir="false" afterPath="$PROJECT_DIR$/testresults/result.zip" afterDir="false" />
-    </list>
+    <list default="true" id="2a68f835-effe-4429-a687-34ebae545105" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -354,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="778" />
     <option name="y" value="69" />
     <option name="width" value="1587" />
@@ -367,28 +262,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kuaishang_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kuaishang_auto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kuaishang_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kuaishang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kuaishang_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kuaishang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -587,7 +461,7 @@
       <workItem from="1585538600329" duration="711000" />
       <workItem from="1585539556932" duration="4030000" />
       <workItem from="1585546757868" duration="26801000" />
-      <workItem from="1586220294354" duration="111824000" />
+      <workItem from="1586220294354" duration="112242000" />
     </task>
     <servers />
   </component>
@@ -624,7 +498,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355831000" />
+    <option name="totallyTimeSpent" value="356249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
